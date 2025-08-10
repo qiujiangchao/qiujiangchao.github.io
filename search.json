@@ -9,30 +9,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Home",
+    "title": "Jiangchao QIU",
     "section": "",
-    "text": "Postdoctoral Associate @ MIT/EAPS.\nInterests: climate change; compound/cascading flooding; tropical cyclones; hydrodynamic modeling; machine learning.\nContact\n- Email: qiujch24@mit.edu\n- X: @JiangchaoQiu\n- Scholar: https://scholar.google.com/citations?user=X485gEcAAAAJ\n- Address: 54-1823, Ames St, Cambridge, MA 02139, USA\n\n\nI am a Postdoctoral Associate at MIT/EAPS (since Apr 2023), working with Dr. Sai Ravela and Prof. Kerry Emanuel. My research focuses on integrated tropical-cyclone–related flood risk under climate change, combining a downscaling–hydrodynamic inundation framework with machine learning for compound extremes. Current topics include adaptive decision-making for infrastructure–human systems; coupled hydrological–hydrodynamic inundation modeling; assessment of compound and cascading flood risks; TC–environment interactions; flood extent detection; and climate impacts on the earth–human system.\nKeywords: climate change; compound/cascading flooding; tropical cyclones; extreme rainfall; coastal inundation; hydrodynamic modeling; machine learning; infrastructure resilience.\n\n\n\n\nApr 2023 – Present — Postdoctoral Associate, Massachusetts Institute of Technology (EAPS), Cambridge, MA\nTC downscaling + hydrodynamic inundation (Bangladesh & coastal U.S.); compound flooding; ML for extremes.\n\n\n\n\n\nPh.D., Physical Geography, Sun Yat-sen University — Sep 2018 – Dec 2022, Guangzhou, China\nAdvisor: Prof. Bingjun Liu. Dissertation: Driving mechanisms and prediction of compound flooding in complex river-network regions (translated).\nPh.D. (CSC joint-educated, 1 year), National University of Singapore — May 2021 – Jun 2022, Singapore\nAdvisor: Prof. Xiaogang He.\nM.Eng., Hydraulic Engineering, Sun Yat-sen University — Sep 2016 – Jun 2018, Guangzhou, China\nThesis: Impacts of cascade reservoirs on hydro-ecological effects of floods across the Pearl River Basin (translated).\nB.Eng., Hydraulic & Hydropower Engineering, China Three Gorges University — Sep 2012 – Jun 2016, Yichang, China\nThesis: Seismic design and unit stability of the CJYX gravity dam hydropower project (translated)."
+    "text": "::: {.row align-items-center} ::: {.col-md-8}"
   },
   {
     "objectID": "index.html#short-bio",
     "href": "index.html#short-bio",
-    "title": "Home",
-    "section": "",
-    "text": "I am a Postdoctoral Associate at MIT/EAPS (since Apr 2023), working with Dr. Sai Ravela and Prof. Kerry Emanuel. My research focuses on integrated tropical-cyclone–related flood risk under climate change, combining a downscaling–hydrodynamic inundation framework with machine learning for compound extremes. Current topics include adaptive decision-making for infrastructure–human systems; coupled hydrological–hydrodynamic inundation modeling; assessment of compound and cascading flood risks; TC–environment interactions; flood extent detection; and climate impacts on the earth–human system.\nKeywords: climate change; compound/cascading flooding; tropical cyclones; extreme rainfall; coastal inundation; hydrodynamic modeling; machine learning; infrastructure resilience."
-  },
-  {
-    "objectID": "index.html#professional-experience",
-    "href": "index.html#professional-experience",
-    "title": "Home",
-    "section": "",
-    "text": "Apr 2023 – Present — Postdoctoral Associate, Massachusetts Institute of Technology (EAPS), Cambridge, MA\nTC downscaling + hydrodynamic inundation (Bangladesh & coastal U.S.); compound flooding; ML for extremes."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Home",
-    "section": "",
-    "text": "Ph.D., Physical Geography, Sun Yat-sen University — Sep 2018 – Dec 2022, Guangzhou, China\nAdvisor: Prof. Bingjun Liu. Dissertation: Driving mechanisms and prediction of compound flooding in complex river-network regions (translated).\nPh.D. (CSC joint-educated, 1 year), National University of Singapore — May 2021 – Jun 2022, Singapore\nAdvisor: Prof. Xiaogang He.\nM.Eng., Hydraulic Engineering, Sun Yat-sen University — Sep 2016 – Jun 2018, Guangzhou, China\nThesis: Impacts of cascade reservoirs on hydro-ecological effects of floods across the Pearl River Basin (translated).\nB.Eng., Hydraulic & Hydropower Engineering, China Three Gorges University — Sep 2012 – Jun 2016, Yichang, China\nThesis: Seismic design and unit stability of the CJYX gravity dam hydropower project (translated)."
+    "title": "Jiangchao QIU",
+    "section": "Short Bio",
+    "text": "Short Bio\nI am a Postdoctoral Associate at MIT/EAPS (since Apr 2023), working with Dr. Sai Ravela and Prof. Kerry Emanuel. My research focuses on integrated tropical-cyclone–related flood risk under climate change, combining a downscaling–hydrodynamic inundation framework with machine learning for compound extremes. Current topics include adaptive decision-making for infrastructure–human systems; coupled hydrological–hydrodynamic inundation modeling; assessment of compound and cascading flood risks; TC–environment interactions; flood extent detection; and climate impacts on the earth–human system.\n::: ::: {.col-md-4}  ::: :::"
   },
   {
     "objectID": "research.html",
