@@ -1,37 +1,49 @@
 /* ===== Custom styles for Jiangchao QIU personal site ===== */
 
-/* Prevent horizontal scroll just in case */
+/* Prevent horizontal scrolling */
 html, body { max-width: 100%; overflow-x: hidden; }
 
-/* Navbar: white background, minimal look */
+/* Navbar: white, minimal, and no left brand text */
 .navbar { background-color: #ffffff !important; box-shadow: none; }
-.navbar .navbar-brand, .navbar .nav-link { color: #333 !important; }
+.navbar .navbar-brand, .navbar-brand { display: none !important; }
+.navbar .nav-link { color: #333 !important; }
 .navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:hover { font-weight: 600; }
+
+/* Hide Quarto default page title / breadcrumbs block (the small 'Jiangchao QIU') */
+.quarto-title-block,
+.quarto-title-breadcrumbs,
+.page-title,
+.title-block,
+.title-block-header { display: none !important; }
 
 /* Comfortable reading width */
 .page-columns .content { max-width: 980px; }
 
-/* Right portrait: big, circular, on the right of text */
+/* Right portrait: large, circular, on the right of text */
 img.portrait{
-  float: right;                 /* keep the image on the right */
-  width: 360px;                 /* make it larger; tweak 320–380 as you like */
-  max-width: min(42vw, 420px);  /* responsive safety */
+  float: right;                      /* keep the image to the right of text */
+  width: 420px;                      /* make it larger (adjust 360–460 as you like) */
+  max-width: min(44vw, 460px);       /* responsive cap */
   height: auto;
   border-radius: 50%;
-  margin: 0 0 14px 28px;        /* space between text and image */
+  margin: 0 0 16px 28px;             /* spacing between text and image */
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
 }
 
-/* Headings spacing */
+/* Headings spacing (slightly tighter) */
 h1, h2 { margin-top: 0.4rem; }
 
-/* Mobile/tablet: stack vertically and center the portrait */
+/* Contact list without bullets */
+ul.contact { list-style: none; padding-left: 0; margin: 0 0 0.6rem 0; }
+ul.contact li { margin: 0 0 4px 0; }
+
+/* Mobile / tablet: stack vertically and center the portrait */
 @media (max-width: 992px){
   img.portrait{
     float: none;
     display: block;
     margin: 0 auto 12px auto;
-    width: 280px;
+    width: 320px;
     max-width: 70vw;
   }
 }

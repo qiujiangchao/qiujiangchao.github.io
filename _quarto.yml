@@ -3,8 +3,9 @@ project:
   output-dir: _site
 
 website:
-  title: "Jiangchao QIU"
+  title: ""            # do not show site title in navbar
   navbar:
+    title: false       # extra safeguard to hide brand text
     right:
       - href: index.qmd
         text: Home
