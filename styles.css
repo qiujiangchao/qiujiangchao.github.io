@@ -7,12 +7,17 @@ html, body { max-width: 100%; overflow-x: hidden; }
 .navbar { background-color: #ffffff !important; box-shadow: none; }
 .navbar .nav-link { color: #333 !important; }
 .navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:hover { font-weight: 600; }
-/* hide possible brand elements across Quarto versions */
-.navbar-brand, .navbar .navbar-brand, .navbar .navbar-title { display: none !important; }
+/* Hide brand in all Quarto/Bootstrap variants */
+.navbar-brand,
+.navbar .navbar-brand,
+.navbar .navbar-title,
+.navbar .navbar-brand-container,
+.navbar .navbar-title-container { display: none !important; }
 
-/* Hide the small page title/breadcrumb block above content */
+/* Hide the Quarto page title block (small grey title above your H1) */
 #title-block-header,
 .quarto-title-block,
+.quarto-title,
 .quarto-title-breadcrumbs,
 .page-title,
 .title-block,
