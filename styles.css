@@ -1,17 +1,73 @@
-/* 顶部导航更素雅：去阴影 */
-.navbar { box-shadow: none; }
+/* ===== Custom styles for Jiangchao QIU personal site ===== */
 
-/* 主体宽度微收紧，阅读更舒适 */
-.page-columns .content { max-width: 980px; }
+/* Navbar: white background, minimal look */
+.navbar {
+  background-color: #ffffff !important;
+  box-shadow: none;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #333 !important;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+  font-weight: 600;
+}
 
-/* 右侧头像：圆形 + 轻阴影 + 右对齐 */
+/* Comfortable reading width */
+.page-columns .content {
+  max-width: 980px;
+}
+
+/* ---- Home hero section: text left, portrait right ---- */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 8px 0 24px 0;
+}
+.hero-text {
+  flex: 1;
+}
+.subtitle {
+  margin-top: -6px;
+  color: #555;
+}
+
+/* Right portrait: circular avatar with soft shadow */
 img.portrait {
+  width: 240px;
+  height: auto;
   border-radius: 50%;
   display: block;
-  margin-left: auto;
+  margin-left: auto;        /* right-align inside its column */
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
 }
 
-/* 标题与段落的间距微调 */
-h1, h2 { margin-top: .4rem; }
+/* Contact list: no bullets */
+ul.contact {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 0.6rem 0;
+}
+ul.contact li {
+  margin: 0 0 4px 0;
+}
 
+/* Headings spacing (slightly tighter) */
+h1, h2 {
+  margin-top: 0.4rem;
+}
+
+/* Mobile tweaks: stack vertically and reset portrait margins */
+@media (max-width: 767.98px) {
+  .hero {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  img.portrait {
+    margin: 0;
+    max-width: 240px;
+  }
+}
