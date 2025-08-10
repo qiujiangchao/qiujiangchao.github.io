@@ -2,26 +2,17 @@
 title: ""
 ---
 
-<div class="hero">
-  <div class="hero-text">
-    <h1>Jiangchao QIU</h1>
-    <p class="subtitle">Postdoctoral Associate @ MIT/EAPS.</p>
+![Jiangchao QIU](/assets/me.jpg){.portrait}
 
-    <p><strong>Interests:</strong> climate change; compound/cascading flooding; tropical cyclones;
-    hydrodynamic modeling; machine learning.</p>
+# Jiangchao QIU
 
-    <h3>Contact</h3>
-    <ul class="contact">
-      <li><a href="mailto:qiujch24@mit.edu">qiujch24@mit.edu</a></li>
-      <li><a href="https://x.com/JiangchaoQiu" target="_blank">@JiangchaoQiu</a></li>
-      <li><a href="https://scholar.google.com/citations?user=X485gEcAAAAJ" target="_blank">Google Scholar</a></li>
-      <li>54-1823, Ames St, Cambridge, MA 02139, USA</li>
-      <li><a href="/assets/cv.pdf" target="_blank">Curriculum Vitae (PDF)</a></li>
-    </ul>
-  </div>
+Postdoctoral Associate @ MIT/EAPS.  
+**Interests:** climate change; compound/cascading flooding; tropical cyclones; hydrodynamic modeling; machine learning.
 
-  <img src="/assets/me.jpg" alt="Jiangchao QIU" class="portrait">
-</div>
+**Contact**  
+- Email: [qiujch24@mit.edu](mailto:qiujch24@mit.edu)  
+- Address: 54-1823, Ames St, Cambridge, MA 02139, USA  
+- [Curriculum Vitae (PDF)](/assets/cv.pdf)
 
 ## Short Bio
 I am a Postdoctoral Associate at *MIT/EAPS* (since Apr 2023), working with Dr. Sai Ravela and Prof. Kerry Emanuel.
@@ -35,10 +26,8 @@ flood risks; TC–environment interactions; flood extent detection; and climate 
 
 ## Education
 - **Ph.D., Physical Geography**, Sun Yat-sen University — *Sep 2018 – Dec 2022*, Guangzhou, China  
-  Advisor: Prof. Bingjun Liu. Dissertation: *Driving mechanisms and prediction of compound flooding in complex river-network regions* (translated).
+  Advisor: Prof. Bingjun Liu.
 - **Ph.D. (CSC joint-educated, 1 yr)**, National University of Singapore — *May 2021 – Jun 2022*, Singapore  
   Advisor: Prof. Xiaogang He.
-- **M.Eng., Hydraulic Engineering**, Sun Yat-sen University — *Sep 2016 – Jun 2018*, Guangzhou, China  
-  Thesis: *Impacts of cascade reservoirs on hydro-ecological effects of floods across the Pearl River Basin* (translated).
-- **B.Eng., Hydraulic & Hydropower Engineering**, China Three Gorges University — *Sep 2012 – Jun 2016*, Yichang, China  
-  Thesis: *Seismic design and unit stability of the CJYX gravity dam hydropower project* (translated).
+- **M.Eng., Hydraulic Engineering**, Sun Yat-sen University — *Sep 2016 – Jun 2018*, Guangzhou, China
+- **B.Eng., Hydraulic & Hydropower Engineering**, China Three Gorges University — *Sep 2012 – Jun 2016*, Yichang, China

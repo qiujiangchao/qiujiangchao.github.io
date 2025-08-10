@@ -1,63 +1,37 @@
 /* ===== Custom styles for Jiangchao QIU personal site ===== */
 
+/* Prevent horizontal scroll just in case */
+html, body { max-width: 100%; overflow-x: hidden; }
+
 /* Navbar: white background, minimal look */
-.navbar {
-  background-color: #ffffff !important;
-  box-shadow: none;
-}
-.navbar .navbar-brand,
-.navbar .nav-link {
-  color: #333 !important;
-}
-.navbar .nav-link.active,
-.navbar .nav-link:focus,
-.navbar .nav-link:hover {
-  font-weight: 600;
-}
+.navbar { background-color: #ffffff !important; box-shadow: none; }
+.navbar .navbar-brand, .navbar .nav-link { color: #333 !important; }
+.navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:hover { font-weight: 600; }
 
 /* Comfortable reading width */
-.page-columns .content {
-  max-width: 980px;
-}
+.page-columns .content { max-width: 980px; }
 
-/* ---- Home hero section: text left, big portrait right ---- */
-.hero{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;    /* keep image on the right */
-  gap: 40px;
-  margin: 8px 0 24px 0;
-}
-.hero-text{ flex: 1; }
-
-/* Bigger portrait on the right */
+/* Right portrait: big, circular, on the right of text */
 img.portrait{
-  width: 320px;            /* try 300–360 to taste */
-  max-width: 40vw;         /* safety on very wide screens */
+  float: right;                 /* keep the image on the right */
+  width: 360px;                 /* make it larger; tweak 320–380 as you like */
+  max-width: min(42vw, 420px);  /* responsive safety */
   height: auto;
   border-radius: 50%;
-  flex-shrink: 0;          /* prevent shrinking */
-  display: block;
-  margin-left: 24px;
+  margin: 0 0 14px 28px;        /* space between text and image */
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
 }
 
-/* Contact list without bullets */
-ul.contact{
-  list-style: none;
-  padding-left: 0;
-  margin: 0 0 0.6rem 0;
-}
-ul.contact li{ margin: 0 0 4px 0; }
+/* Headings spacing */
+h1, h2 { margin-top: 0.4rem; }
 
-/* Slightly tighter heading spacing */
-h1, h2{ margin-top: 0.4rem; }
-
-/* Mobile: stack vertically (image below text) */
+/* Mobile/tablet: stack vertically and center the portrait */
 @media (max-width: 992px){
-  .hero{ flex-direction: column-reverse; align-items: flex-start; }
-  img.portrait{ width: 260px; margin: 0; }
+  img.portrait{
+    float: none;
+    display: block;
+    margin: 0 auto 12px auto;
+    width: 280px;
+    max-width: 70vw;
+  }
 }
-
-/* Fallback if flex fails for any reason */
-.no-flex img.portrait{ float: right; margin-left: 24px; }
