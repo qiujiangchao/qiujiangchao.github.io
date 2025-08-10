@@ -3,9 +3,10 @@ project:
   output-dir: _site
 
 website:
-  title: ""            # do not show site title in navbar
+  title: ""            # no site title string
+  bread-crumbs: false  # disable site breadcrumbs (defensive)
   navbar:
-    title: false       # extra safeguard to hide brand text
+    title: false       # hide brand area
     right:
       - href: index.qmd
         text: Home

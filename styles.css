@@ -1,15 +1,17 @@
 /* ===== Custom styles for Jiangchao QIU personal site ===== */
 
-/* Prevent horizontal scrolling */
+/* Prevent any horizontal scroll */
 html, body { max-width: 100%; overflow-x: hidden; }
 
-/* Navbar: white, minimal, and no left brand text */
+/* Navbar: white, minimal, and hide brand text */
 .navbar { background-color: #ffffff !important; box-shadow: none; }
-.navbar .navbar-brand, .navbar-brand { display: none !important; }
 .navbar .nav-link { color: #333 !important; }
 .navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:hover { font-weight: 600; }
+/* hide possible brand elements across Quarto versions */
+.navbar-brand, .navbar .navbar-brand, .navbar .navbar-title { display: none !important; }
 
-/* Hide Quarto default page title / breadcrumbs block (the small 'Jiangchao QIU') */
+/* Hide the small page title/breadcrumb block above content */
+#title-block-header,
 .quarto-title-block,
 .quarto-title-breadcrumbs,
 .page-title,
@@ -19,25 +21,25 @@ html, body { max-width: 100%; overflow-x: hidden; }
 /* Comfortable reading width */
 .page-columns .content { max-width: 980px; }
 
-/* Right portrait: large, circular, on the right of text */
+/* Right portrait: larger, circular, to the right of text */
 img.portrait{
-  float: right;                      /* keep the image to the right of text */
-  width: 420px;                      /* make it larger (adjust 360–460 as you like) */
+  float: right;                      /* keep image on the right */
+  width: 420px;                      /* adjust 360–460 as you like */
   max-width: min(44vw, 460px);       /* responsive cap */
   height: auto;
   border-radius: 50%;
-  margin: 0 0 16px 28px;             /* spacing between text and image */
+  margin: 0 0 16px 28px;             /* spacing from text */
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
 }
-
-/* Headings spacing (slightly tighter) */
-h1, h2 { margin-top: 0.4rem; }
 
 /* Contact list without bullets */
 ul.contact { list-style: none; padding-left: 0; margin: 0 0 0.6rem 0; }
 ul.contact li { margin: 0 0 4px 0; }
 
-/* Mobile / tablet: stack vertically and center the portrait */
+/* Tighter headings spacing */
+h1, h2 { margin-top: 0.4rem; }
+
+/* Mobile/tablet: stack vertically and center the portrait */
 @media (max-width: 992px){
   img.portrait{
     float: none;
