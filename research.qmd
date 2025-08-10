@@ -1,0 +1,19 @@
+---
+title: "Research"
+---
+
+### Tropical-cyclone downscaling + hydrodynamic inundation
+Bangladesh & SE U.S.; coupling surge, waves, rainfall, riverine flow.
+
+### Compound & cascading hazards
+Risk mapping; ML-accelerated extreme search; adaptive decision-making.
+
+### Hydrology & rating-curve uncertainty
+Bayesian / nonstationary methods; stage–discharge modeling.
+
+### Mentoring
+- **Yifan Lu** (NUS, incoming Ph.D., since May 2023): compound flood modeling and analysis.  
+- **Xiaola Wang** (IWHR, Ph.D., since Sep 2023): ecohydrology modeling.  
+- **Grace Jiang** (MIT, B.S., Jul 2023–Dec 2024): ML for extremes (LASSE).  
+- **Yi Huang** (CTGU, M.S., since Oct 2023): tropical-cyclone rainfall nowcasting.  
+- **Madeline Loui** (MIT, Ph.D., Dec 2023–Jun 2024): ML + remote sensing for inundation mapping.

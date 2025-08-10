@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Jiangchao QIU"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: news.qmd
+        text: News
+      - href: cv.qmd
+        text: CV
+    search: true
+  page-footer:
+    center: "© Jiangchao QIU"
+format:
+  html:
+    theme: flatly
+    toc: false
