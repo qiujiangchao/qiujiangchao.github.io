@@ -1,18 +1,34 @@
 /* ===== Custom styles for Jiangchao QIU personal site ===== */
 
 /* Prevent any horizontal scroll */
-html, body { max-width: 100%; overflow-x: hidden; }
+html, body { 
+  max-width: 100%; 
+  overflow-x: hidden; 
+  margin: 0;
+  padding: 0;
+}
 
 /* Navbar: white, minimal, and hide brand text */
-.navbar { background-color: #ffffff !important; box-shadow: none; }
-.navbar .nav-link { color: #333 !important; }
-.navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:hover { font-weight: 600; }
+.navbar { 
+  background-color: #ffffff !important; 
+  box-shadow: none; 
+}
+.navbar .nav-link { 
+  color: #333 !important; 
+}
+.navbar .nav-link.active, 
+.navbar .nav-link:focus, 
+.navbar .nav-link:hover { 
+  font-weight: 600; 
+}
 /* Hide brand in all Quarto/Bootstrap variants */
 .navbar-brand,
 .navbar .navbar-brand,
 .navbar .navbar-title,
 .navbar .navbar-brand-container,
-.navbar .navbar-title-container { display: none !important; }
+.navbar .navbar-title-container { 
+  display: none !important; 
+}
 
 /* Hide the Quarto page title block (small grey title above your H1) */
 #title-block-header,
@@ -21,35 +37,63 @@ html, body { max-width: 100%; overflow-x: hidden; }
 .quarto-title-breadcrumbs,
 .page-title,
 .title-block,
-.title-block-header { display: none !important; }
+.title-block-header { 
+  display: none !important; 
+}
 
 /* Comfortable reading width */
-.page-columns .content { max-width: 980px; }
+.page-columns .content { 
+  max-width: 980px; 
+}
 
-/* Right portrait: larger, circular, to the right of text */
-img.portrait{
-  float: right;                      /* keep image on the right */
+/* Intro section layout: text and portrait aligned horizontally */
+.intro-section {
+  display: flex;
+  align-items: center; /* Vertically align text and image */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Intro text block */
+.intro-text {
+  flex: 1 1 55%;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Right portrait: larger, circular */
+.intro-portrait img {
   width: 420px;                      /* adjust 360–460 as you like */
   max-width: min(44vw, 460px);       /* responsive cap */
   height: auto;
   border-radius: 50%;
-  margin: 0 0 16px 28px;             /* spacing from text */
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
 }
 
 /* Contact list without bullets */
-ul.contact { list-style: none; padding-left: 0; margin: 0 0 0.6rem 0; }
-ul.contact li { margin: 0 0 4px 0; }
+ul.contact { 
+  list-style: none; 
+  padding-left: 0; 
+  margin: 0 0 0.6rem 0; 
+}
+ul.contact li { 
+  margin: 0 0 4px 0; 
+}
 
 /* Tighter headings spacing */
-h1, h2 { margin-top: 0.4rem; }
+h1, h2 { 
+  margin-top: 0.4rem; 
+}
 
 /* Mobile/tablet: stack vertically and center the portrait */
 @media (max-width: 992px){
-  img.portrait{
-    float: none;
-    display: block;
-    margin: 0 auto 12px auto;
+  .intro-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .intro-portrait img {
     width: 320px;
     max-width: 70vw;
   }
@@ -62,5 +106,6 @@ nav[aria-label="breadcrumb"],
 .breadcrumb-item,
 #title-block-header,
 .quarto-title-block,
-.quarto-title-breadcrumbs { display: none !important; }
-
+.quarto-title-breadcrumbs { 
+  display: none !important; 
+}
