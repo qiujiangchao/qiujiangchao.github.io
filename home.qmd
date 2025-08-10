@@ -16,7 +16,7 @@ format:
   <a href="/assets/cv.pdf">Curriculum Vitae</a>
 </div>
 
-<p>I am a Postdoctoral Associate at MIT/EAPS (since April 2023), advised by Dr. Sai Ravela, in collaboration with Prof. Kerry Emanuel and Prof. Miho Mazereeuw, and funded by two MIT Climate Grand Challenge Flagship Projects. My research interests span physical oceanography, atmospheric science, and terrestrial hydrology, with a particular emphasis on ocean–atmosphere–land interactions.</p>
+<p>I am a Postdoctoral Associate at MIT/EAPS (since April 2023), advised by Dr. Sai Ravela, in collaboration with Prof. Kerry Emanuel and Prof. Miho Mazereeuw, and funded by two MIT Climate Grand Challenge Flagship Projects. My research interests broadly span physical oceanography, atmospheric science, and terrestrial hydrology, with a particular emphasis on ocean–atmosphere–land interactions.</p>
 
 <p>My current work focuses on developing hyper-resolution flood inundation risk maps for vulnerable regions such as Bangladesh, Southeast Florida, Puerto Rico, and Boston, using a multidisciplinary, downscaling–hydrodynamic modeling framework accelerated by machine learning. This research addresses the impacts of weather and climate extremes—particularly tropical cyclones, seasonal extreme rainfall, and sea-level rise—and aims to empower frontline communities by enhancing disaster resilience, strengthening coastal strategies, and advancing climate adaptation.</p>
 
