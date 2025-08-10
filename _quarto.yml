@@ -3,10 +3,10 @@ project:
   output-dir: _site
 
 website:
-  title: ""            # no site title string
-  bread-crumbs: false  # disable breadcrumbs
+  title: ""              # 不显示站点标题
+  bread-crumbs: false    # 关闭面包屑
   navbar:
-    title: false       # hide brand area
+    title: false         # 隐藏左侧品牌文字
     right:
       - href: index.qmd
         text: Home
@@ -14,10 +14,14 @@ website:
         text: Research
       - href: publications.qmd
         text: Publications
+      - href: talks.qmd
+        text: Talks
+      - href: visualizations.qmd
+        text: Visualizations
+      - href: teaching_notes.qmd
+        text: Teaching and Notes
       - href: news.qmd
         text: News
-      - href: cv.qmd
-        text: CV
     search: true
     background: light
   page-footer:

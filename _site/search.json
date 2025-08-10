@@ -11,28 +11,28 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "&lt;h1&gt;Jiangchao QIU&lt;/h1&gt;\n&lt;p&gt;&lt;strong&gt;Postdoctoral Associate @ MIT/EAPS.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Interests:&lt;/strong&gt; climate change; compound/cascading flooding; tropical cyclones;\nhydrodynamic modeling; machine learning.&lt;/p&gt;\n\n**Contact**\n- Email: [qiujch24@mit.edu](mailto:qiujch24@mit.edu)\n- Address: 54-1823, Ames St, Cambridge, MA 02139, USA\n- [Curriculum Vitae (PDF)](/assets/cv.pdf)\n\n\n&lt;img src=\"assets/me.jpg\" alt=\"Jiangchao QIU portrait\"&gt;"
+    "text": "Jiangchao Qiu 邱江潮\n\n\nqiujch24@mit.edu | Curriculum Vitae\n\n\nI’m a Postdoctoral Associate at MIT/EAPS (since Apr 2023), working with Dr. Sai Ravela and Prof. Kerry Emanuel. My research focuses on integrated tropical-cyclone–related flood risk under climate change, combining a downscaling–hydrodynamic inundation framework with machine learning for compound extremes. Current interests span adaptive decision-making for infrastructure–human systems; coupled hydrological–hydrodynamic inundation modeling; assessment of compound and cascading flood risks; TC–environment interactions; flood extent detection; and climate impacts on the earth–human system.\n\n\n\n\n\n\n\n\nEmployment\n\nApr 2023 – Present — Postdoctoral Associate, Massachusetts Institute of Technology\n\n\n\nEducation\n\nSep 2018 – Dec 2022 — Ph.D., Physical Geography, Sun Yat-sen University\nMay 2021 – Jun 2022 — Ph.D. (CSC joint-educated, 1 yr), National University of Singapore\nSep 2016 – Jun 2018 — M.Eng., Hydraulic Engineering, Sun Yat-sen University\nSep 2012 – Jun 2016 — B.Eng., Hydraulic & Hydropower Engineering, China Three Gorges University"
   },
   {
-    "objectID": "index.html#short-bio",
-    "href": "index.html#short-bio",
-    "title": "",
-    "section": "Short Bio",
-    "text": "Short Bio\nI am a Postdoctoral Associate at MIT/EAPS (since Apr 2023), working with Dr. Sai Ravela and Prof. Kerry Emanuel. My research focuses on integrated tropical-cyclone–related flood risk under climate change, combining a downscaling–hydrodynamic inundation framework with machine learning for compound extremes. Current topics include adaptive decision-making for infrastructure–human systems; coupled hydrological–hydrodynamic inundation modeling; assessment of compound and cascading flood risks; TC–environment interactions; flood extent detection; and climate impacts on the earth–human system."
+    "objectID": "teaching_notes.html",
+    "href": "teaching_notes.html",
+    "title": "Teaching and Notes",
+    "section": "",
+    "text": "Workshop: Hydrodynamic Inundation with SFINCS (Local scale)\nSlides: /assets/teaching/sfincs-workshop.pdf\nLab data: /assets/teaching/sfincs-lab-data.zip\nIntro to Tropical Cyclone Downscaling\nHandout: /assets/teaching/tc-downscaling-handout.pdf\nCE-QUAL-W2 / MIKE3 — Reservoir & Lake Modeling\nDemo notebook: /assets/teaching/reservoir-demo.ipynb\n\n\n\n\n\nYifan Lu (NUS, since May 2023) — Compound flood modeling & analysis\n\nXiaola Wang (IWHR, since Sep 2023) — Ecohydrology; coupled water–carbon model\n\nGrace Jiang (MIT, Jul 2023–Dec 2024) — LASSE: learning active sampling for storm-tide extremes\n\nMadeline Loui (MIT, Dec 2023–Jun 2024) — ML + Remote sensing for inundation mapping\n\nYi Huang (M.S., CTGU, since Oct 2023) — Tropical-cyclone rainfall nowcasting"
   },
   {
-    "objectID": "index.html#employment",
-    "href": "index.html#employment",
-    "title": "",
-    "section": "Employment",
-    "text": "Employment\n\nApr 2023 – Present — Postdoctoral Associate, MIT/EAPS, Cambridge, MA"
+    "objectID": "teaching_notes.html#teaching",
+    "href": "teaching_notes.html#teaching",
+    "title": "Teaching and Notes",
+    "section": "",
+    "text": "Workshop: Hydrodynamic Inundation with SFINCS (Local scale)\nSlides: /assets/teaching/sfincs-workshop.pdf\nLab data: /assets/teaching/sfincs-lab-data.zip\nIntro to Tropical Cyclone Downscaling\nHandout: /assets/teaching/tc-downscaling-handout.pdf\nCE-QUAL-W2 / MIKE3 — Reservoir & Lake Modeling\nDemo notebook: /assets/teaching/reservoir-demo.ipynb\n\n\n\n\n\nYifan Lu (NUS, since May 2023) — Compound flood modeling & analysis\n\nXiaola Wang (IWHR, since Sep 2023) — Ecohydrology; coupled water–carbon model\n\nGrace Jiang (MIT, Jul 2023–Dec 2024) — LASSE: learning active sampling for storm-tide extremes\n\nMadeline Loui (MIT, Dec 2023–Jun 2024) — ML + Remote sensing for inundation mapping\n\nYi Huang (M.S., CTGU, since Oct 2023) — Tropical-cyclone rainfall nowcasting"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "",
-    "section": "Education",
-    "text": "Education\n\nSep 2018 – Dec 2022 — Ph.D., Physical Geography, Sun Yat-sen University, Guangzhou, China\nMay 2021 – Jun 2022 — Ph.D. (CSC joint-educated, 1 yr), National University of Singapore, Singapore\nSep 2016 – Jun 2018 — M.Eng., Hydraulic Engineering, Sun Yat-sen University, Guangzhou, China\nSep 2012 – Jun 2016 — B.Eng., Hydraulic & Hydropower Engineering, China Three Gorges University, Yichang, China"
+    "objectID": "teaching_notes.html#notes",
+    "href": "teaching_notes.html#notes",
+    "title": "Teaching and Notes",
+    "section": "Notes",
+    "text": "Notes\nPractical notes / short references. Mostly for students and collaborators.\n\nSFINCS tips: friction, timestepping, stability\nPDF: /assets/notes/sfincs-tips.pdf\nCoupling CaMa-Flood and LISFLOOD-FP: pitfalls\nPDF: /assets/notes/coupling-cama-lisflood.pdf\nTC Downscaling pipeline (Emanuel model) — quick start\nPDF: /assets/notes/tc-downscaling-quickstart.pdf\nCopulas for compound flood: a 2-page cheat sheet\nPDF: /assets/notes/copula-cheatsheet.pdf\n\n\n\nOrganization\nPut files into: - Teaching materials: /assets/teaching/ - Notes/handouts: /assets/notes/"
   },
   {
     "objectID": "research.html",
@@ -40,6 +40,62 @@
     "title": "Research",
     "section": "",
     "text": "Tropical-cyclone downscaling + hydrodynamic inundation\nBangladesh & SE U.S.; coupling surge, waves, rainfall, riverine flow.\n\n\nCompound & cascading hazards\nRisk mapping; ML-accelerated extreme search; adaptive decision-making.\n\n\nHydrology & rating-curve uncertainty\nBayesian / nonstationary methods; stage–discharge modeling.\n\n\nMentoring\n\nYifan Lu (NUS, incoming Ph.D., since May 2023): compound flood modeling and analysis.\n\nXiaola Wang (IWHR, Ph.D., since Sep 2023): ecohydrology modeling.\n\nGrace Jiang (MIT, B.S., Jul 2023–Dec 2024): ML for extremes (LASSE).\n\nYi Huang (CTGU, M.S., since Oct 2023): tropical-cyclone rainfall nowcasting.\n\nMadeline Loui (MIT, Ph.D., Dec 2023–Jun 2024): ML + remote sensing for inundation mapping."
+  },
+  {
+    "objectID": "visualizations.html",
+    "href": "visualizations.html",
+    "title": "Visualizations",
+    "section": "",
+    "text": "Your browser does not support the video tag."
+  },
+  {
+    "objectID": "visualizations.html#hurricane-irma-animation",
+    "href": "visualizations.html#hurricane-irma-animation",
+    "title": "Visualizations",
+    "section": "",
+    "text": "Your browser does not support the video tag."
+  },
+  {
+    "objectID": "visualizations.html#sea-level-rise-animation",
+    "href": "visualizations.html#sea-level-rise-animation",
+    "title": "Visualizations",
+    "section": "Sea Level Rise Animation",
+    "text": "Sea Level Rise Animation\n\n\nYour browser does not support the video tag."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "{Talk title here} — {Venue or seminar name}\n{City, Country} · {Month Day, Year}\nAbstract · Slides · Video"
+  },
+  {
+    "objectID": "talks.html#upcoming",
+    "href": "talks.html#upcoming",
+    "title": "Talks",
+    "section": "",
+    "text": "{Talk title here} — {Venue or seminar name}\n{City, Country} · {Month Day, Year}\nAbstract · Slides · Video"
+  },
+  {
+    "objectID": "talks.html#section",
+    "href": "talks.html#section",
+    "title": "Talks",
+    "section": "2025",
+    "text": "2025\n\nAssessing Cascading Flood Hazards in a Warming Climate — AGU Fall Meeting\nWashington, DC · Dec 2025\nSlides · Poster\nMachine Learning Accelerated Search for Storm Surge Extremes: Application to Bangladesh — 3rd Intl. Workshop on Waves, Storm Surges & Coastal Hazards\nNotre Dame · Oct 2025\nAbstract · Slides"
+  },
+  {
+    "objectID": "talks.html#section-1",
+    "href": "talks.html#section-1",
+    "title": "Talks",
+    "section": "2024",
+    "text": "2024\n\nCoastal Flood Risk in Bangladesh under Climate Change — AGU Fall Meeting\nSan Francisco · Dec 2024\nPoster"
+  },
+  {
+    "objectID": "talks.html#section-2",
+    "href": "talks.html#section-2",
+    "title": "Talks",
+    "section": "2021",
+    "text": "2021\n\nCompound Fluvial–Pluvial–Coastal Flood Risk over Southeast Asia — AGU Fall Meeting (Online)\nDec 2021\nPoster\n\n\n\nNotes for myself\nPut files under:\n/assets/talks/ (slides, posters, abstracts).\nYou can add a calendar-style entry by copying one of the bullets and editing the links/dates."
   },
   {
     "objectID": "news.html",

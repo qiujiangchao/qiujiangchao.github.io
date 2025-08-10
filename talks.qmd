@@ -1,0 +1,47 @@
+---
+title: "Talks"
+format:
+  html:
+    toc: false
+---
+
+## Upcoming
+
+- **{Talk title here}** — {Venue or seminar name}  
+  *{City, Country} · {Month Day, Year}*  
+  [Abstract](/assets/talks/your-abstract.pdf) · [Slides](/assets/talks/your-slides.pdf) · [Video](https://...)
+
+---
+
+## 2025
+
+- **Assessing Cascading Flood Hazards in a Warming Climate** — *AGU Fall Meeting*  
+  *Washington, DC · Dec 2025*  
+  [Slides](/assets/talks/AGU2025-cascading-floods.pdf) · [Poster](/assets/talks/AGU2025-poster.pdf)
+
+- **Machine Learning Accelerated Search for Storm Surge Extremes: Application to Bangladesh** — *3rd Intl. Workshop on Waves, Storm Surges & Coastal Hazards*  
+  *Notre Dame · Oct 2025*  
+  [Abstract](/assets/talks/ww3-abstract.pdf) · [Slides](/assets/talks/ww3-slides.pdf)
+
+---
+
+## 2024
+
+- **Coastal Flood Risk in Bangladesh under Climate Change** — *AGU Fall Meeting*  
+  *San Francisco · Dec 2024*  
+  [Poster](/assets/talks/AGU2024-poster.pdf)
+
+---
+
+## 2021
+
+- **Compound Fluvial–Pluvial–Coastal Flood Risk over Southeast Asia** — *AGU Fall Meeting (Online)*  
+  *Dec 2021*  
+  [Poster](/assets/talks/AGU2021-poster.pdf)
+
+---
+
+### Notes for myself
+Put files under:  
+`/assets/talks/` (slides, posters, abstracts).  
+You can add a calendar-style entry by copying one of the bullets and editing the links/dates.

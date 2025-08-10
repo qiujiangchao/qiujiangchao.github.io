@@ -1,0 +1,17 @@
+---
+title: "Visualizations"
+---
+
+## Hurricane Irma Animation
+<video controls autoplay loop muted width="800">
+  <source src="assets/vis/hurricane_irma_animation_web.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+## Sea Level Rise Animation
+<video controls autoplay loop muted width="800">
+  <source src="assets/vis/animation_data_20170910_today_plus_slr_1m_web.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

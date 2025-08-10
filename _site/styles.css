@@ -1,111 +1,80 @@
-/* ===== Custom styles for Jiangchao QIU personal site ===== */
+/* ===== Minimal academic home layout (Siyi-style) ===== */
 
-/* Prevent any horizontal scroll */
-html, body { 
-  max-width: 100%; 
-  overflow-x: hidden; 
-  margin: 0;
-  padding: 0;
+/* overall width ~ 86% (max 1200px) */
+.page-columns .content{
+  max-width: min(86vw, 1200px);
 }
 
-/* Navbar: white, minimal, and hide brand text */
-.navbar { 
-  background-color: #ffffff !important; 
-  box-shadow: none; 
+/* remove tiny Quarto title/breadcrumbs */
+#title-block-header, .quarto-title-block, .quarto-title, .quarto-title-breadcrumbs,
+.quarto-page-breadcrumbs, nav[aria-label="breadcrumb"], .breadcrumb{ display:none !important; }
+
+/* navbar keep simple */
+.navbar{ background:#fff !important; box-shadow:none; }
+.navbar .nav-link{ color:#333 !important; }
+.navbar .nav-link.active{ font-weight:600; }
+
+/* ---------- HERO (left text + right portrait) ---------- */
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:48px;
+  margin-top:10px;
+  margin-bottom:24px;
 }
-.navbar .nav-link { 
-  color: #333 !important; 
+.hero-left{
+  flex:1 1 62%;
+  min-width: 420px;
 }
-.navbar .nav-link.active, 
-.navbar .nav-link:focus, 
-.navbar .nav-link:hover { 
-  font-weight: 600; 
+.hero-right{
+  flex:0 0 320px;
+  display:flex;
+  justify-content:flex-end;
 }
-/* Hide brand in all Quarto/Bootstrap variants */
-.navbar-brand,
-.navbar .navbar-brand,
-.navbar .navbar-title,
-.navbar .navbar-brand-container,
-.navbar .navbar-title-container { 
-  display: none !important; 
+.hero-right img{
+  width:320px;
+  height:320px;
+  object-fit:cover;
+  border-radius:50%;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
 }
 
-/* Hide the Quarto page title block (small grey title above your H1) */
-#title-block-header,
-.quarto-title-block,
-.quarto-title,
-.quarto-title-breadcrumbs,
-.page-title,
-.title-block,
-.title-block-header { 
-  display: none !important; 
+/* Name line like a compact H2 */
+.hero-name{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 10px 0;
 }
 
-/* Comfortable reading width */
-.page-columns .content { 
-  max-width: 980px; 
+/* contact inline: "email | CV" */
+.contact-inline{
+  margin: 6px 0 14px 0;
+  color:#444;
+}
+.contact-inline a{ text-decoration:none; }
+.contact-inline a:hover{ text-decoration:underline; }
+.contact-inline .sep{ margin: 0 10px; color:#aaa; }
+
+/* body copy */
+p{ margin: 0 0 12px 0; line-height:1.6; }
+
+/* divider like sample */
+.section-divider{
+  border:none; height:1px;
+  background: #e8e8e8;
+  margin: 26px 0;
 }
 
-/* Intro section layout: text and portrait aligned horizontally */
-.intro-section {
-  display: flex;
-  align-items: center; /* Vertically align text and image */
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-}
+/* headings below divider */
+h2{ font-size: 1.35rem; margin-top: 0; margin-bottom: 10px; }
+ul{ margin-top: 6px; }
 
-/* Intro text block */
-.intro-text {
-  flex: 1 1 55%;
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-
-/* Right portrait: larger, circular */
-.intro-portrait img {
-  width: 420px;                      /* adjust 360–460 as you like */
-  max-width: min(44vw, 460px);       /* responsive cap */
-  height: auto;
-  border-radius: 50%;
-  box-shadow: 0 6px 18px rgba(0,0,0,.08);
-}
-
-/* Contact list without bullets */
-ul.contact { 
-  list-style: none; 
-  padding-left: 0; 
-  margin: 0 0 0.6rem 0; 
-}
-ul.contact li { 
-  margin: 0 0 4px 0; 
-}
-
-/* Tighter headings spacing */
-h1, h2 { 
-  margin-top: 0.4rem; 
-}
-
-/* Mobile/tablet: stack vertically and center the portrait */
+/* mobile */
 @media (max-width: 992px){
-  .intro-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .intro-portrait img {
-    width: 320px;
-    max-width: 70vw;
-  }
-}
-
-/* Hard kill any breadcrumbs/title remnants */
-.quarto-page-breadcrumbs,
-nav[aria-label="breadcrumb"],
-.breadcrumb,
-.breadcrumb-item,
-#title-block-header,
-.quarto-title-block,
-.quarto-title-breadcrumbs { 
-  display: none !important; 
+  .page-columns .content{ max-width: 92vw; }
+  .hero{ flex-direction:column-reverse; gap:16px; align-items:center; }
+  .hero-left{ min-width:auto; text-align:left; }
+  .hero-right{ justify-content:center; }
+  .hero-right img{ width:220px; height:220px; }
 }
