@@ -1,7 +1,0 @@
----
-title: "CV"
----
-
-Download my CV: [PDF](/assets/cv.pdf)
-
-> Replace the placeholder `assets/cv.pdf` with your actual CV.

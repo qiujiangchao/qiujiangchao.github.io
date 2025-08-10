@@ -3,12 +3,14 @@ project:
   output-dir: _site
 
 website:
-  title: ""              # 不显示站点标题
-  bread-crumbs: false    # 关闭面包屑
+  title: ""              # Do not display site title
+  site-url: https://qiujiangchao.github.io
+  bread-crumbs: false    # Disable breadcrumbs
+  favicon: assets/favicon.ico   # Browser tab icon
   navbar:
-    title: false         # 隐藏左侧品牌文字
+    title: false         # Hide brand text on the left
     right:
-      - href: index.qmd
+      - href: home.qmd
         text: Home
       - href: research.qmd
         text: Research
@@ -33,3 +35,9 @@ format:
       light: cosmo
     css: styles.css
     toc: false
+    include-in-header:
+      text: |
+        <!-- SVG favicon (modern browsers) -->
+        <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+        <!-- iOS home screen icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">

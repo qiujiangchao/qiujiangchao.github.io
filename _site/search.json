@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Download my CV: PDF\n\nReplace the placeholder assets/cv.pdf with your actual CV."
+    "text": "Huang, Z., Qiu, J., et al. Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. under review, Weather and Climate Extremes.\nWang, X., Duan, K., Sun, G., Liu, H., Qiu, J., Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. under review, Journal of Hydrology.\nQin, J., Qiu, J., et al. Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. under review, Geophysical Research Letters."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
+    "objectID": "publications.html#under-review",
+    "href": "publications.html#under-review",
+    "title": "Publications",
     "section": "",
-    "text": "Jiangchao Qiu 邱江潮\n\n\nqiujch24@mit.edu | Curriculum Vitae\n\n\nI’m a Postdoctoral Associate at MIT/EAPS (since Apr 2023), working with Dr. Sai Ravela and Prof. Kerry Emanuel. My research focuses on integrated tropical-cyclone–related flood risk under climate change, combining a downscaling–hydrodynamic inundation framework with machine learning for compound extremes. Current interests span adaptive decision-making for infrastructure–human systems; coupled hydrological–hydrodynamic inundation modeling; assessment of compound and cascading flood risks; TC–environment interactions; flood extent detection; and climate impacts on the earth–human system.\n\n\n\n\n\n\n\n\nEmployment\n\nApr 2023 – Present — Postdoctoral Associate, Massachusetts Institute of Technology\n\n\n\nEducation\n\nSep 2018 – Dec 2022 — Ph.D., Physical Geography, Sun Yat-sen University\nMay 2021 – Jun 2022 — Ph.D. (CSC joint-educated, 1 yr), National University of Singapore\nSep 2016 – Jun 2018 — M.Eng., Hydraulic Engineering, Sun Yat-sen University\nSep 2012 – Jun 2016 — B.Eng., Hydraulic & Hydropower Engineering, China Three Gorges University"
+    "text": "Huang, Z., Qiu, J., et al. Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. under review, Weather and Climate Extremes.\nWang, X., Duan, K., Sun, G., Liu, H., Qiu, J., Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. under review, Journal of Hydrology.\nQin, J., Qiu, J., et al. Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. under review, Geophysical Research Letters."
+  },
+  {
+    "objectID": "publications.html#selected-journal-articles",
+    "href": "publications.html#selected-journal-articles",
+    "title": "Publications",
+    "section": "Selected Journal Articles",
+    "text": "Selected Journal Articles\n\nQiu, J.†, Ravela, S., Emanuel, K. (2025). From decades to years: rising seas and cyclones amplify Bangladesh’s storm-tide hazards. One Earth, 8(4).\nQiu, J., Liu, B., Yang, F., Wang, X., He, X. (2022). Quantitative stress test of compound coastal–fluvial floods in China’s Pearl River Delta. Earth’s Future, 10(5), e2021EF002638.\nJiang, G., Qiu, J., Ravela, S. (2024). LASSE: Learning Active Sampling for Storm Tide Extremes in Non-Stationary Climate Regimes. arXiv:2501.00149.\nQiu, J., Liu, B., Yu, X., Yang, Z. (2021). Combining a segmentation procedure and the BaRatin stationary model to estimate nonstationary rating curves and associated uncertainties. Journal of Hydrology, 597, 126168.\n\n† Corresponding author."
   },
   {
     "objectID": "teaching_notes.html",
@@ -33,34 +40,6 @@
     "title": "Teaching and Notes",
     "section": "Notes",
     "text": "Notes\nPractical notes / short references. Mostly for students and collaborators.\n\nSFINCS tips: friction, timestepping, stability\nPDF: /assets/notes/sfincs-tips.pdf\nCoupling CaMa-Flood and LISFLOOD-FP: pitfalls\nPDF: /assets/notes/coupling-cama-lisflood.pdf\nTC Downscaling pipeline (Emanuel model) — quick start\nPDF: /assets/notes/tc-downscaling-quickstart.pdf\nCopulas for compound flood: a 2-page cheat sheet\nPDF: /assets/notes/copula-cheatsheet.pdf\n\n\n\nOrganization\nPut files into: - Teaching materials: /assets/teaching/ - Notes/handouts: /assets/notes/"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Tropical-cyclone downscaling + hydrodynamic inundation\nBangladesh & SE U.S.; coupling surge, waves, rainfall, riverine flow.\n\n\nCompound & cascading hazards\nRisk mapping; ML-accelerated extreme search; adaptive decision-making.\n\n\nHydrology & rating-curve uncertainty\nBayesian / nonstationary methods; stage–discharge modeling.\n\n\nMentoring\n\nYifan Lu (NUS, incoming Ph.D., since May 2023): compound flood modeling and analysis.\n\nXiaola Wang (IWHR, Ph.D., since Sep 2023): ecohydrology modeling.\n\nGrace Jiang (MIT, B.S., Jul 2023–Dec 2024): ML for extremes (LASSE).\n\nYi Huang (CTGU, M.S., since Oct 2023): tropical-cyclone rainfall nowcasting.\n\nMadeline Loui (MIT, Ph.D., Dec 2023–Jun 2024): ML + remote sensing for inundation mapping."
-  },
-  {
-    "objectID": "visualizations.html",
-    "href": "visualizations.html",
-    "title": "Visualizations",
-    "section": "",
-    "text": "Your browser does not support the video tag."
-  },
-  {
-    "objectID": "visualizations.html#hurricane-irma-animation",
-    "href": "visualizations.html#hurricane-irma-animation",
-    "title": "Visualizations",
-    "section": "",
-    "text": "Your browser does not support the video tag."
-  },
-  {
-    "objectID": "visualizations.html#sea-level-rise-animation",
-    "href": "visualizations.html#sea-level-rise-animation",
-    "title": "Visualizations",
-    "section": "Sea Level Rise Animation",
-    "text": "Sea Level Rise Animation\n\n\nYour browser does not support the video tag."
   },
   {
     "objectID": "talks.html",
@@ -98,31 +77,45 @@
     "text": "2021\n\nCompound Fluvial–Pluvial–Coastal Flood Risk over Southeast Asia — AGU Fall Meeting (Online)\nDec 2021\nPoster\n\n\n\nNotes for myself\nPut files under:\n/assets/talks/ (slides, posters, abstracts).\nYou can add a calendar-style entry by copying one of the bullets and editing the links/dates."
   },
   {
+    "objectID": "visualizations.html",
+    "href": "visualizations.html",
+    "title": "Visualizations",
+    "section": "",
+    "text": "Your browser does not support the video tag."
+  },
+  {
+    "objectID": "visualizations.html#hurricane-irma-animation",
+    "href": "visualizations.html#hurricane-irma-animation",
+    "title": "Visualizations",
+    "section": "",
+    "text": "Your browser does not support the video tag."
+  },
+  {
+    "objectID": "visualizations.html#sea-level-rise-animation",
+    "href": "visualizations.html#sea-level-rise-animation",
+    "title": "Visualizations",
+    "section": "Sea Level Rise Animation",
+    "text": "Sea Level Rise Animation\n\n\nYour browser does not support the video tag."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Tropical-cyclone downscaling + hydrodynamic inundation\nBangladesh & SE U.S.; coupling surge, waves, rainfall, riverine flow.\n\n\nCompound & cascading hazards\nRisk mapping; ML-accelerated extreme search; adaptive decision-making.\n\n\nHydrology & rating-curve uncertainty\nBayesian / nonstationary methods; stage–discharge modeling.\n\n\nMentoring\n\nYifan Lu (NUS, incoming Ph.D., since May 2023): compound flood modeling and analysis.\n\nXiaola Wang (IWHR, Ph.D., since Sep 2023): ecohydrology modeling.\n\nGrace Jiang (MIT, B.S., Jul 2023–Dec 2024): ML for extremes (LASSE).\n\nYi Huang (CTGU, M.S., since Oct 2023): tropical-cyclone rainfall nowcasting.\n\nMadeline Loui (MIT, Ph.D., Dec 2023–Jun 2024): ML + remote sensing for inundation mapping."
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Home",
+    "section": "",
+    "text": "Jiangchao Qiu 邱江潮\n\n\nqiujch24@mit.edu | Curriculum Vitae\n\n\nI’m a Postdoctoral Associate at MIT/EAPS (since Apr 2023), working with Dr. Sai Ravela and Prof. Kerry Emanuel. My research focuses on integrated tropical-cyclone–related flood risk under climate change, combining a downscaling–hydrodynamic inundation framework with machine learning for compound extremes. Current interests span adaptive decision-making for infrastructure–human systems; coupled hydrological–hydrodynamic inundation modeling; assessment of compound and cascading flood risks; TC–environment interactions; flood extent detection; and climate impacts on the earth–human system.\n\n\n\n\n\n\n\n\nEmployment\n\nApr 2023 – Present — Postdoctoral Associate, Massachusetts Institute of Technology\n\n\n\nEducation\n\nSep 2018 – Dec 2022 — Ph.D., Physical Geography, Sun Yat-sen University\nMay 2021 – Jun 2022 — Ph.D. (CSC joint-educated, 1 yr), National University of Singapore\nSep 2016 – Jun 2018 — M.Eng., Hydraulic Engineering, Sun Yat-sen University\nSep 2012 – Jun 2016 — B.Eng., Hydraulic & Hydropower Engineering, China Three Gorges University"
+  },
+  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
     "section": "",
     "text": "2025-04 — One Earth paper published: Bangladesh storm-tide hazards (with Ravela & Emanuel).\n2024-12 — AGU Fall Meeting poster: Assessing Cascading Flood Hazards in a Warming Climate.\n2023-12 — AGU Fall Meeting poster: coastal flood risk in Bangladesh."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Huang, Z., Qiu, J., et al. Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. under review, Weather and Climate Extremes.\nWang, X., Duan, K., Sun, G., Liu, H., Qiu, J., Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. under review, Journal of Hydrology.\nQin, J., Qiu, J., et al. Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. under review, Geophysical Research Letters."
-  },
-  {
-    "objectID": "publications.html#under-review",
-    "href": "publications.html#under-review",
-    "title": "Publications",
-    "section": "",
-    "text": "Huang, Z., Qiu, J., et al. Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. under review, Weather and Climate Extremes.\nWang, X., Duan, K., Sun, G., Liu, H., Qiu, J., Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. under review, Journal of Hydrology.\nQin, J., Qiu, J., et al. Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. under review, Geophysical Research Letters."
-  },
-  {
-    "objectID": "publications.html#selected-journal-articles",
-    "href": "publications.html#selected-journal-articles",
-    "title": "Publications",
-    "section": "Selected Journal Articles",
-    "text": "Selected Journal Articles\n\nQiu, J.†, Ravela, S., Emanuel, K. (2025). From decades to years: rising seas and cyclones amplify Bangladesh’s storm-tide hazards. One Earth, 8(4).\nQiu, J., Liu, B., Yang, F., Wang, X., He, X. (2022). Quantitative stress test of compound coastal–fluvial floods in China’s Pearl River Delta. Earth’s Future, 10(5), e2021EF002638.\nJiang, G., Qiu, J., Ravela, S. (2024). LASSE: Learning Active Sampling for Storm Tide Extremes in Non-Stationary Climate Regimes. arXiv:2501.00149.\nQiu, J., Liu, B., Yu, X., Yang, Z. (2021). Combining a segmentation procedure and the BaRatin stationary model to estimate nonstationary rating curves and associated uncertainties. Journal of Hydrology, 597, 126168.\n\n† Corresponding author."
   }
 ]
