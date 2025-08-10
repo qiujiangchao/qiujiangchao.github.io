@@ -17,13 +17,13 @@ website:
       - href: cv.qmd
         text: CV
     search: true
-    background: light   # 顶部导航浅色（白色）
+    background: light
   page-footer:
     center: "© Jiangchao QIU"
 
 format:
   html:
     theme:
-      light: cosmo      # 白底简洁主题（可换 lumen/minty/materia 等）
-    css: styles.css     # 自定义样式（见下）
+      light: cosmo
+    css: styles.css
     toc: false

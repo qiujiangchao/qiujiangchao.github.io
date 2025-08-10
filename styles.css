@@ -20,54 +20,44 @@
   max-width: 980px;
 }
 
-/* ---- Home hero section: text left, portrait right ---- */
-.hero {
+/* ---- Home hero section: text left, big portrait right ---- */
+.hero{
   display: flex;
   align-items: center;
-  gap: 32px;
+  justify-content: space-between;    /* keep image on the right */
+  gap: 40px;
   margin: 8px 0 24px 0;
 }
-.hero-text {
-  flex: 1;
-}
-.subtitle {
-  margin-top: -6px;
-  color: #555;
-}
+.hero-text{ flex: 1; }
 
-/* Right portrait: circular avatar with soft shadow */
-img.portrait {
-  width: 240px;
+/* Bigger portrait on the right */
+img.portrait{
+  width: 320px;            /* try 300–360 to taste */
+  max-width: 40vw;         /* safety on very wide screens */
   height: auto;
   border-radius: 50%;
+  flex-shrink: 0;          /* prevent shrinking */
   display: block;
-  margin-left: auto;        /* right-align inside its column */
+  margin-left: 24px;
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
 }
 
-/* Contact list: no bullets */
-ul.contact {
+/* Contact list without bullets */
+ul.contact{
   list-style: none;
   padding-left: 0;
   margin: 0 0 0.6rem 0;
 }
-ul.contact li {
-  margin: 0 0 4px 0;
+ul.contact li{ margin: 0 0 4px 0; }
+
+/* Slightly tighter heading spacing */
+h1, h2{ margin-top: 0.4rem; }
+
+/* Mobile: stack vertically (image below text) */
+@media (max-width: 992px){
+  .hero{ flex-direction: column-reverse; align-items: flex-start; }
+  img.portrait{ width: 260px; margin: 0; }
 }
 
-/* Headings spacing (slightly tighter) */
-h1, h2 {
-  margin-top: 0.4rem;
-}
-
-/* Mobile tweaks: stack vertically and reset portrait margins */
-@media (max-width: 767.98px) {
-  .hero {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-  }
-  img.portrait {
-    margin: 0;
-    max-width: 240px;
-  }
-}
+/* Fallback if flex fails for any reason */
+.no-flex img.portrait{ float: right; margin-left: 24px; }
