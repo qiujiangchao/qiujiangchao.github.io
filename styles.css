@@ -54,3 +54,13 @@ h1, h2 { margin-top: 0.4rem; }
     max-width: 70vw;
   }
 }
+
+/* Hard kill any breadcrumbs/title remnants */
+.quarto-page-breadcrumbs,
+nav[aria-label="breadcrumb"],
+.breadcrumb,
+.breadcrumb-item,
+#title-block-header,
+.quarto-title-block,
+.quarto-title-breadcrumbs { display: none !important; }
+
