@@ -1,20 +1,27 @@
 ---
-title: ""        # 不显示“Home”大标题
+title: ""   # 不显示“Home”标题
 ---
 
-::: {.row align-items-center}
-::: {.col-md-8}
+<div class="hero">
+  <div class="hero-text">
+    <h1>Jiangchao QIU</h1>
+    <p class="subtitle">Postdoctoral Associate @ MIT/EAPS.</p>
 
-# Jiangchao QIU
+    <p><strong>Interests:</strong> climate change; compound/cascading flooding; tropical cyclones;
+    hydrodynamic modeling; machine learning.</p>
 
-Postdoctoral Associate @ MIT/EAPS.  
-**Interests:** climate change; compound/cascading flooding; tropical cyclones; hydrodynamic modeling; machine learning.
+    <h3>Contact</h3>
+    <ul class="contact">
+      <li><a href="mailto:qiujch24@mit.edu">qiujch24@mit.edu</a></li>
+      <li><a href="https://x.com/JiangchaoQiu" target="_blank">@JiangchaoQiu</a></li>
+      <li><a href="https://scholar.google.com/citations?user=X485gEcAAAAJ" target="_blank">Google Scholar</a></li>
+      <li>54-1823, Ames St, Cambridge, MA 02139, USA</li>
+      <li><a href="/assets/cv.pdf" target="_blank">Curriculum Vitae (PDF)</a></li>
+    </ul>
+  </div>
 
-**Contact**  
-- Email: [qiujch24@mit.edu](mailto:qiujch24@mit.edu)  
-- X: [@JiangchaoQiu](https://x.com/JiangchaoQiu)  
-- Scholar: <https://scholar.google.com/citations?user=X485gEcAAAAJ>  
-- Address: 54-1823, Ames St, Cambridge, MA 02139, USA
+  <img src="/assets/me.jpg" alt="Jiangchao QIU" class="portrait">
+</div>
 
 ## Short Bio
 I am a Postdoctoral Associate at *MIT/EAPS* (since Apr 2023), working with Dr. Sai Ravela and Prof. Kerry Emanuel.
@@ -23,8 +30,12 @@ inundation framework with machine learning for compound extremes. Current topics
 infrastructure–human systems; coupled hydrological–hydrodynamic inundation modeling; assessment of compound and cascading
 flood risks; TC–environment interactions; flood extent detection; and climate impacts on the earth–human system.
 
-:::
-::: {.col-md-4}
-![](/assets/me.jpg){width="240" class="portrait" fig-align="right"}
-:::
-:::
+## Employment
+- **Apr 2023 – Present** — Postdoctoral Associate, Massachusetts Institute of Technology (EAPS), Cambridge, MA
+
+## Education
+- **Ph.D., Physical Geography**, Sun Yat-sen University — *Sep 2018 – Dec 2022*, Guangzhou, China  
+- **Ph.D. (CSC joint-educated, 1 yr)**, National University of Singapore — *May 2021 – Jun 2022*, Singapore  
+- **M.Eng., Hydraulic Engineering**, Sun Yat-sen University — *Sep 2016 – Jun 2018*, Guangzhou, China  
+- **B.Eng., Hydraulic & Hydropower Engineering**, China Three Gorges University — *Sep 2012 – Jun 2016*, Yichang, China  
+  
