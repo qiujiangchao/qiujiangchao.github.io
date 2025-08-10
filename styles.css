@@ -1,8 +1,8 @@
 /* ===== Minimal academic home layout (Siyi-style) ===== */
 
-/* overall width ~ 86% (max 1200px) */
+/* overall width ~ 92% (max 1320px) — widened */
 .page-columns .content{
-  max-width: min(86vw, 1200px);
+  max-width: min(92vw, 1320px);
 }
 
 /* remove tiny Quarto title/breadcrumbs */
@@ -19,14 +19,18 @@
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:48px;
+  gap:36px; /* tighter gap to free width */
   margin-top:10px;
   margin-bottom:24px;
 }
+
+/* LEFT column wider (from 62% -> 70%) */
 .hero-left{
-  flex:1 1 62%;
-  min-width: 420px;
+  flex:1 1 70%;
+  min-width: 520px; /* better line length */
 }
+
+/* RIGHT column: keep avatar at 320px */
 .hero-right{
   flex:0 0 320px;
   display:flex;
@@ -69,6 +73,12 @@ p{ margin: 0 0 12px 0; line-height:1.6; }
 /* headings below divider */
 h2{ font-size: 1.35rem; margin-top: 0; margin-bottom: 10px; }
 ul{ margin-top: 6px; }
+
+/* Large screens: give a little more canvas */
+@media (min-width: 1400px){
+  .page-columns .content{ max-width: 1360px; } /* optional extra widen */
+  .hero-left{ flex-basis: 72%; }
+}
 
 /* mobile */
 @media (max-width: 992px){
