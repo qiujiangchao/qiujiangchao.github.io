@@ -1,0 +1,17 @@
+/* 顶部导航更素雅：去阴影 */
+.navbar { box-shadow: none; }
+
+/* 主体宽度微收紧，阅读更舒适 */
+.page-columns .content { max-width: 980px; }
+
+/* 右侧头像：圆形 + 轻阴影 + 右对齐 */
+img.portrait {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+/* 标题与段落的间距微调 */
+h1, h2 { margin-top: .4rem; }
+
