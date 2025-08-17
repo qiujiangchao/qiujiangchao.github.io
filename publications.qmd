@@ -2,15 +2,18 @@
 title: "Publications"
 ---
 
-## Under Review
-- Huang, Z., **Qiu, J.**, *et al.* Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. *under review, Weather and Climate Extremes*.
-- Wang, X., Duan, K., Sun, G., Liu, H., **Qiu, J.**, Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. *under review, Journal of Hydrology*.
-- Qin, J., **Qiu, J.**, *et al.* Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. *under review, Geophysical Research Letters*.
+## Under review
+- Huang, Z., **Qiu, J.**, *et al.* Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. *Weather and Climate Extremes* (under review).
+- Wang, X., Duan, K., Sun, G., Liu, H., **Qiu, J.**, Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. *Journal of Hydrology* (under review).
+- Qin, J., **Qiu, J.**, He, X., *et al.* Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. *Geophysical Research Letters* (under review).
 
-## Selected Journal Articles
-- **Qiu, J.**†, Ravela, S., Emanuel, K. (2025). From decades to years: rising seas and cyclones amplify Bangladesh’s storm-tide hazards. *One Earth*, 8(4).
-- **Qiu, J.**, Liu, B., Yang, F., Wang, X., He, X. (2022). Quantitative stress test of compound coastal–fluvial floods in China’s Pearl River Delta. *Earth’s Future*, 10(5), e2021EF002638.
-- Jiang, G., **Qiu, J.**, Ravela, S. (2024). LASSE: Learning Active Sampling for Storm Tide Extremes in Non-Stationary Climate Regimes. *arXiv*:2501.00149.
-- **Qiu, J.**, Liu, B., Yu, X., Yang, Z. (2021). Combining a segmentation procedure and the BaRatin stationary model to estimate nonstationary rating curves and associated uncertainties. *Journal of Hydrology*, 597, 126168.
+## Peer-reviewed journal articles
+- **Qiu, J.**†, Ravela, S., & Emanuel, K. (2025). From decades to years: Rising seas and cyclones amplify Bangladesh’s storm-tide hazards. *One Earth*, 8(4).
+- **Qiu, J.**, Liu, B., Yang, F., Wang, X., & He, X. (2022). Quantitative stress test of compound coastal–fluvial floods in China’s Pearl River Delta. *Earth’s Future*, 10(5), e2021EF002638.
+- **Qiu, J.**, Liu, B., Yu, X., & Yang, Z. (2021). Combining a segmentation procedure and the BaRatin stationary model to estimate nonstationary rating curves and associated uncertainties. *Journal of Hydrology*, 597, 126168.
+- **Qiu, J.**, Liu, B., Yang, Z., & Peng, W. (2020). Uncertainty analysis of estimated discharge based on stage–discharge rating curves. *Advances in Water Science*, 31(2), 214–223.
 
-*† Corresponding author.*
+## Preprints
+- Jiang, G., **Qiu, J.**, & Ravela, S. (2024). LASSE: Learning Active Sampling for Storm Tide Extremes in Non-Stationary Climate Regimes. *arXiv:2501.00149*.
+
+† Corresponding author.

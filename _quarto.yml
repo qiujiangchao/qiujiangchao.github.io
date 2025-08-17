@@ -20,8 +20,6 @@ website:
         text: Talks
       - href: visualizations.qmd
         text: Visualizations
-      - href: teaching_notes.qmd
-        text: Teaching and Notes
       - href: news.qmd
         text: News
     search: true

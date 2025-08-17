@@ -5,43 +5,66 @@ format:
     toc: false
 ---
 
-## Upcoming
-
-- **{Talk title here}** — {Venue or seminar name}  
-  *{City, Country} · {Month Day, Year}*  
-  [Abstract](/assets/talks/your-abstract.pdf) · [Slides](/assets/talks/your-slides.pdf) · [Video](https://...)
-
----
-
 ## 2025
 
-- **Assessing Cascading Flood Hazards in a Warming Climate** — *AGU Fall Meeting*  
-  *Washington, DC · Dec 2025*  
-  [Slides](/assets/talks/AGU2025-cascading-floods.pdf) · [Poster](/assets/talks/AGU2025-poster.pdf)
+- **Cyclone- and Seasonal-Extreme–Induced Flood Risk in Broward County** — *Visit to Broward Emergency Center & SFWMD Center*  
+  *Fort Lauderdale, Florida, USA · Jul 2025*  
+  *Oral (Invited)*
 
-- **Machine Learning Accelerated Search for Storm Surge Extremes: Application to Bangladesh** — *3rd Intl. Workshop on Waves, Storm Surges & Coastal Hazards*  
-  *Notre Dame · Oct 2025*  
-  [Abstract](/assets/talks/ww3-abstract.pdf) · [Slides](/assets/talks/ww3-slides.pdf)
+- **Cascading Hazards from Tropical Cyclone and Monsoon Extreme Rainfall in a Warming Climate** — *Compound Climate Extremes Workshop*  
+  *NUS, Singapore (online) · Feb 2025*  
+  *Oral (Invited)*
 
 ---
 
 ## 2024
 
-- **Coastal Flood Risk in Bangladesh under Climate Change** — *AGU Fall Meeting*  
-  *San Francisco · Dec 2024*  
-  [Poster](/assets/talks/AGU2024-poster.pdf)
+- **Assessing Cascading Flood Hazards in a Warming Climate** — *AGU Fall Meeting*  
+  *Washington, DC, USA · Dec 2024*  
+  *Poster*
+
+- **Coastal Flood Risk in Bangladesh under a Warming Climate** — *Flood Hazard and Climate Resilience Workshop*  
+  *MIT, Cambridge, USA · Aug 2024*  
+  *Poster*
+
+- **Tropical Cyclone–Induced Compound Flooding in a Warming Climate** — *Compound Climate Extremes Workshop*  
+  *NUS, Singapore (online) · Jun 2024*  
+  *Oral (Invited)*
+
+---
+
+## 2023
+
+- **Coastal Flood Risk in Bangladesh** — *AGU Fall Meeting*  
+  *San Francisco, USA · Dec 2023*  
+  *Poster*
+
+- **Coastal Flooding in Bangladesh in a Changing Climate** — *Carlson Lecture*  
+  *New England Aquarium, Boston, USA · Nov 2023*  
+  *Poster*
+
+- **Machine Learning–Accelerated Search for Storm Surge Extremes: Application to Bangladesh** — *3rd International Workshop on Waves, Storm Surges & Coastal Hazards*  
+  *Notre Dame, USA · Oct 2023*  
+  *Oral*
+
+- **Academic Writing and Literature Management: Methods and Practices** — *Personal Visit to China Three Gorges University*  
+  *Yichang, China · Mar 2023*  
+  *Oral (Invited)*
 
 ---
 
 ## 2021
 
-- **Compound Fluvial–Pluvial–Coastal Flood Risk over Southeast Asia** — *AGU Fall Meeting (Online)*  
-  *Dec 2021*  
-  [Poster](/assets/talks/AGU2021-poster.pdf)
+- **Compound Fluvial–Pluvial–Coastal Flood Risk over Southeast Asia in Current and Future Climates** — *AGU Fall Meeting*  
+  *Chicago, USA (online) · Dec 2021*  
+  *Poster*
 
 ---
 
-### Notes for myself
-Put files under:  
-`/assets/talks/` (slides, posters, abstracts).  
-You can add a calendar-style entry by copying one of the bullets and editing the links/dates.
+## 2019
+
+- **Stage–Discharge Rating-Curve Information and Uncertainty** — *Chinese Academy of Sciences Annual Meeting*  
+  *Hubei, China · Sep 2019*  
+  *Oral (Invited); Best Conference Paper Award*
+
+---

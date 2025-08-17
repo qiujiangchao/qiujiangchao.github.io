@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -110,10 +110,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Visualizations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching_notes.html"> 
-<span class="menu-text">Teaching and Notes</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
@@ -125,12 +121,40 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tropical-cyclone" id="toc-tropical-cyclone" class="nav-link active" data-scroll-target="#tropical-cyclone">Tropical Cyclone</a>
+  <ul class="collapse">
+  <li><a href="#hurricane-in-reanalysis-dataset-era5" id="toc-hurricane-in-reanalysis-dataset-era5" class="nav-link" data-scroll-target="#hurricane-in-reanalysis-dataset-era5">Hurricane in Reanalysis Dataset (ERA5)</a></li>
+  <li><a href="#pytcr-rain-structure-evolution" id="toc-pytcr-rain-structure-evolution" class="nav-link" data-scroll-target="#pytcr-rain-structure-evolution">pyTCR: Rain Structure &amp; Evolution</a></li>
+  <li><a href="#pytcr-synthetic-tracks-for-risk-workflows" id="toc-pytcr-synthetic-tracks-for-risk-workflows" class="nav-link" data-scroll-target="#pytcr-synthetic-tracks-for-risk-workflows">pyTCR: Synthetic Tracks for Risk Workflows</a></li>
+  </ul></li>
+  <li><a href="#coastal-storm-tide" id="toc-coastal-storm-tide" class="nav-link" data-scroll-target="#coastal-storm-tide">Coastal Storm Tide</a>
+  <ul class="collapse">
+  <li><a href="#bangladesh-storm-tide-cyclone-sidr-historical-run-for-validation" id="toc-bangladesh-storm-tide-cyclone-sidr-historical-run-for-validation" class="nav-link" data-scroll-target="#bangladesh-storm-tide-cyclone-sidr-historical-run-for-validation">Bangladesh Storm Tide — Cyclone Sidr (historical run for validation)</a></li>
+  </ul></li>
+  <li><a href="#flood-inundation-map" id="toc-flood-inundation-map" class="nav-link" data-scroll-target="#flood-inundation-map">Flood Inundation Map</a>
+  <ul class="collapse">
+  <li><a href="#case-1-irma-2017-rain-tide-surge-1-m-sea-level-rise" id="toc-case-1-irma-2017-rain-tide-surge-1-m-sea-level-rise" class="nav-link" data-scroll-target="#case-1-irma-2017-rain-tide-surge-1-m-sea-level-rise">Case 1 — Irma (2017): Rain + Tide + Surge + 1 m sea-level rise</a></li>
+  <li><a href="#case-2-irma-2017-rain-tide-surge-1.5-m-sea-level-rise" id="toc-case-2-irma-2017-rain-tide-surge-1.5-m-sea-level-rise" class="nav-link" data-scroll-target="#case-2-irma-2017-rain-tide-surge-1.5-m-sea-level-rise">Case 2 — Irma (2017): Rain + Tide + Surge + 1.5 m sea-level rise</a></li>
+  <li><a href="#case-3-april-12-2023-rain-tide-surge-1-m-sea-level-rise" id="toc-case-3-april-12-2023-rain-tide-surge-1-m-sea-level-rise" class="nav-link" data-scroll-target="#case-3-april-12-2023-rain-tide-surge-1-m-sea-level-rise">Case 3 — April 12 (2023): Rain + Tide + Surge + 1 m sea-level rise</a></li>
+  </ul></li>
+  <li><a href="#hyper-resolution-rainfall" id="toc-hyper-resolution-rainfall" class="nav-link" data-scroll-target="#hyper-resolution-rainfall">Hyper-Resolution Rainfall</a>
+  <ul class="collapse">
+  <li><a href="#case-1-irma-2017" id="toc-case-1-irma-2017" class="nav-link" data-scroll-target="#case-1-irma-2017">Case 1 — Irma (2017)</a></li>
+  <li><a href="#case-2-april-12-2023" id="toc-case-2-april-12-2023" class="nav-link" data-scroll-target="#case-2-april-12-2023">Case 2 — April 12 (2023)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -139,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -151,21 +175,136 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="hurricane-irma-animation" class="level2">
-<h2 class="anchored" data-anchor-id="hurricane-irma-animation">Hurricane Irma Animation</h2>
-<video controls="" autoplay="" loop="" muted="" width="800">
-<source src="assets/vis/hurricane_irma_animation_web.mp4" type="video/mp4">
-<p>Your browser does not support the video tag. </p>
+<style>
+/* 自适应媒体：不裁剪、不固定高宽比 */
+.media { display:block; width:100%; border-radius:8px; overflow:hidden; background:#000; }
+.media video, .media img { display:block; width:100%; height:auto; }
+
+/* 文字与间距 */
+.fig-note { font-size:.9rem; color:#555; margin-top:.35rem; }
+.section-spacer { margin-top:18px; }
+.btnline a{ margin-right:10px; }
+</style>
+<section id="tropical-cyclone" class="level1">
+<h1>Tropical Cyclone</h1>
+<section id="hurricane-in-reanalysis-dataset-era5" class="level3">
+<h3 class="anchored" data-anchor-id="hurricane-in-reanalysis-dataset-era5">Hurricane in Reanalysis Dataset (ERA5)</h3>
+<div class="media">
+<p><video controls="" autoplay="" loop="" muted="" playsinline="" preload="metadata"> <source src="assets/vis/hurricane_irma_animation_web.mp4" type="video/mp4"> Your browser does not support the video tag. </video></p>
+</div>
+<div class="fig-note">
+Wind-speed field in ERA5 at 850 hPa.
+<div class="btnline">
+<p><a href="assets/vis/hurricane_irma_animation_web.mp4" download="">Download MP4</a></p>
+</div>
+</div>
+</section>
+<section id="pytcr-rain-structure-evolution" class="level3">
+<h3 class="anchored" data-anchor-id="pytcr-rain-structure-evolution">pyTCR: Rain Structure &amp; Evolution</h3>
+<div class="media">
+<p><img src="assets/vis/pyTCR_Intro-hurricane.gif" alt="pyTCR demo showing hurricane rain structure and evolution"></p>
+</div>
+<div class="fig-note">
+Toy example to illustrate TC rain structure and evolution.
+</div>
+</section>
+<section id="pytcr-synthetic-tracks-for-risk-workflows" class="level3">
+<h3 class="anchored" data-anchor-id="pytcr-synthetic-tracks-for-risk-workflows">pyTCR: Synthetic Tracks for Risk Workflows</h3>
+<div class="media">
+<p><img src="assets/vis/pyTCR_hurricane_tracks.gif" alt="Animated sample of synthetic hurricane tracks generated by pyTCR"></p>
+</div>
+<div class="fig-note">
+Sample synthetic tracks generated for risk assessment workflows.
+</div>
 <hr>
-</video></section>
-<section id="sea-level-rise-animation" class="level2">
-<h2 class="anchored" data-anchor-id="sea-level-rise-animation">Sea Level Rise Animation</h2>
-<video controls="" autoplay="" loop="" muted="" width="800">
-<source src="assets/vis/animation_data_20170910_today_plus_slr_1m_web.mp4" type="video/mp4">
-<p>Your browser does not support the video tag. </p>
+</section>
+</section>
+<section id="coastal-storm-tide" class="level1">
+<h1>Coastal Storm Tide</h1>
+<section id="bangladesh-storm-tide-cyclone-sidr-historical-run-for-validation" class="level3">
+<h3 class="anchored" data-anchor-id="bangladesh-storm-tide-cyclone-sidr-historical-run-for-validation">Bangladesh Storm Tide — Cyclone Sidr (historical run for validation)</h3>
+<div class="media">
+<p><video controls="" muted="" playsinline="" preload="metadata"> <source src="assets/vis/Storm_Tide_Bangladesh_Sidr_web.mp4" type="video/mp4"> </video></p>
+</div>
+<div class="fig-note">
+Event-scale storm tide animation over the Bangladesh coastal plain.
+<div class="btnline">
+<p><a href="assets/vis/Storm_Tide_Bangladesh_Sidr_web.mp4" download="">Download MP4</a></p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="flood-inundation-map" class="level1">
+<h1>Flood Inundation Map</h1>
+<section id="case-1-irma-2017-rain-tide-surge-1-m-sea-level-rise" class="level3">
+<h3 class="anchored" data-anchor-id="case-1-irma-2017-rain-tide-surge-1-m-sea-level-rise">Case 1 — Irma (2017): Rain + Tide + Surge + 1 m sea-level rise</h3>
+<div class="media">
+<p><video controls="" muted="" playsinline="" preload="metadata"> <source src="assets/vis/animation_data_20170910_today_plus_slr_1m_web.mp4" type="video/mp4"> </video></p>
+</div>
+<div class="fig-note">
+Illustrative animation of coastal water levels under a +1 m sea-level rise scenario (SFINCS).
+<div class="btnline">
+<p><a href="assets/vis/animation_data_20170910_today_plus_slr_1m_web.mp4" download="">Download MP4</a></p>
+</div>
+</div>
+</section>
+<section id="case-2-irma-2017-rain-tide-surge-1.5-m-sea-level-rise" class="level3">
+<h3 class="anchored" data-anchor-id="case-2-irma-2017-rain-tide-surge-1.5-m-sea-level-rise">Case 2 — Irma (2017): Rain + Tide + Surge + 1.5 m sea-level rise</h3>
+<div class="media">
+<p><video controls="" muted="" playsinline="" preload="metadata"> <source src="assets/vis/animation_data_20170910_today_plus_slr_1p5m_web.mp4" type="video/mp4"> </video></p>
+</div>
+<div class="fig-note">
+Time-evolving inundation under +1.5 m sea-level rise (SFINCS).
+<div class="btnline">
+<p><a href="assets/vis/animation_data_20170910_today_plus_slr_1p5m_web.mp4" download="">Download MP4</a></p>
+</div>
+</div>
+</section>
+<section id="case-3-april-12-2023-rain-tide-surge-1-m-sea-level-rise" class="level3">
+<h3 class="anchored" data-anchor-id="case-3-april-12-2023-rain-tide-surge-1-m-sea-level-rise">Case 3 — April 12 (2023): Rain + Tide + Surge + 1 m sea-level rise</h3>
+<div class="media">
+<p><video controls="" muted="" playsinline="" preload="metadata"> <source src="assets/vis/animation_data_20230412_today_plus_slr1m_web.mp4" type="video/mp4"> </video></p>
+</div>
+<div class="fig-note">
+Time-evolving inundation under +1 m sea-level rise (SFINCS).
+<div class="btnline">
+<p><a href="assets/vis/animation_data_20230412_today_plus_slr1m_web.mp4" download="">Download MP4</a></p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="hyper-resolution-rainfall" class="level1">
+<h1>Hyper-Resolution Rainfall</h1>
+<section id="case-1-irma-2017" class="level3">
+<h3 class="anchored" data-anchor-id="case-1-irma-2017">Case 1 — Irma (2017)</h3>
+<div class="media">
+<p><video controls="" muted="" playsinline="" preload="metadata"> <source src="assets/vis/animation_rainfall_images_20170909_web.mp4" type="video/mp4"> </video></p>
+</div>
+<div class="fig-note">
+Hourly MRMS rainfall animation.
+<div class="btnline">
+<p><a href="assets/vis/animation_rainfall_images_20170909_web.mp4" download="">Download MP4</a></p>
+</div>
+</div>
+</section>
+<section id="case-2-april-12-2023" class="level3">
+<h3 class="anchored" data-anchor-id="case-2-april-12-2023">Case 2 — April 12 (2023)</h3>
+<div class="media">
+<p><video controls="" muted="" playsinline="" preload="metadata"> <source src="assets/vis/animation_rainfall_images_20230411_web.mp4" type="video/mp4"> </video></p>
+</div>
+<div class="fig-note">
+Hourly MRMS rainfall animation.
+<div class="btnline">
+<p><a href="assets/vis/animation_rainfall_images_20230411_web.mp4" download="">Download MP4</a></p>
+</div>
+</div>
+<hr>
 
 
-</video></section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -4,14 +4,14 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Huang, Z., Qiu, J., et al. Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. under review, Weather and Climate Extremes.\nWang, X., Duan, K., Sun, G., Liu, H., Qiu, J., Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. under review, Journal of Hydrology.\nQin, J., Qiu, J., et al. Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. under review, Geophysical Research Letters."
+    "text": "Huang, Z., Qiu, J., et al. Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. Weather and Climate Extremes (under review).\nWang, X., Duan, K., Sun, G., Liu, H., Qiu, J., Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. Journal of Hydrology (under review).\nQin, J., Qiu, J., He, X., et al. Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. Geophysical Research Letters (under review)."
   },
   {
     "objectID": "publications.html#under-review",
     "href": "publications.html#under-review",
     "title": "Publications",
     "section": "",
-    "text": "Huang, Z., Qiu, J., et al. Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. under review, Weather and Climate Extremes.\nWang, X., Duan, K., Sun, G., Liu, H., Qiu, J., Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. under review, Journal of Hydrology.\nQin, J., Qiu, J., et al. Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. under review, Geophysical Research Letters."
+    "text": "Huang, Z., Qiu, J., et al. Anthropogenic warming quadruples recent unprecedented snow droughts in the Asian Water Tower. Weather and Climate Extremes (under review).\nWang, X., Duan, K., Sun, G., Liu, H., Qiu, J., Wang, X., Huang, Z., Peng, H. A modeling framework for disentangling the impacts of changing climate and land uses on terrestrial water–carbon balance under SSP–RCP scenarios. Journal of Hydrology (under review).\nQin, J., Qiu, J., He, X., et al. Complex networks reveal climate models’ capability in simulating global synchronized extreme precipitation. Geophysical Research Letters (under review)."
   },
   {
     "objectID": "publications.html#selected-journal-articles",
@@ -46,7 +46,7 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "{Talk title here} — {Venue or seminar name}\n{City, Country} · {Month Day, Year}\nAbstract · Slides · Video"
+    "text": "Cyclone- and Seasonal-Extreme–Induced Flood Risk in Broward County — Visit to Broward Emergency Center & SFWMD Center\nFort Lauderdale, Florida, USA · Jul 2025\nOral (Invited)\nCascading Hazards from Tropical Cyclone and Monsoon Extreme Rainfall in a Warming Climate — Compound Climate Extremes Workshop\nNUS, Singapore (online) · Feb 2025\nOral (Invited)"
   },
   {
     "objectID": "talks.html#upcoming",
@@ -59,29 +59,29 @@
     "objectID": "talks.html#section",
     "href": "talks.html#section",
     "title": "Talks",
-    "section": "2025",
-    "text": "2025\n\nAssessing Cascading Flood Hazards in a Warming Climate — AGU Fall Meeting\nWashington, DC · Dec 2025\nSlides · Poster\nMachine Learning Accelerated Search for Storm Surge Extremes: Application to Bangladesh — 3rd Intl. Workshop on Waves, Storm Surges & Coastal Hazards\nNotre Dame · Oct 2025\nAbstract · Slides"
+    "section": "",
+    "text": "Cyclone- and Seasonal-Extreme–Induced Flood Risk in Broward County — Visit to Broward Emergency Center & SFWMD Center\nFort Lauderdale, Florida, USA · Jul 2025\nOral (Invited)\nCascading Hazards from Tropical Cyclone and Monsoon Extreme Rainfall in a Warming Climate — Compound Climate Extremes Workshop\nNUS, Singapore (online) · Feb 2025\nOral (Invited)"
   },
   {
     "objectID": "talks.html#section-1",
     "href": "talks.html#section-1",
     "title": "Talks",
     "section": "2024",
-    "text": "2024\n\nCoastal Flood Risk in Bangladesh under Climate Change — AGU Fall Meeting\nSan Francisco · Dec 2024\nPoster"
+    "text": "2024\n\nAssessing Cascading Flood Hazards in a Warming Climate — AGU Fall Meeting\nWashington, DC, USA · Dec 2024\nPoster\nCoastal Flood Risk in Bangladesh under a Warming Climate — Flood Hazard and Climate Resilience Workshop\nMIT, Cambridge, USA · Aug 2024\nPoster\nTropical Cyclone–Induced Compound Flooding in a Warming Climate — Compound Climate Extremes Workshop\nNUS, Singapore (online) · Jun 2024\nOral (Invited)"
   },
   {
     "objectID": "talks.html#section-2",
     "href": "talks.html#section-2",
     "title": "Talks",
-    "section": "2021",
-    "text": "2021\n\nCompound Fluvial–Pluvial–Coastal Flood Risk over Southeast Asia — AGU Fall Meeting (Online)\nDec 2021\nPoster\n\n\n\nNotes for myself\nPut files under:\n/assets/talks/ (slides, posters, abstracts).\nYou can add a calendar-style entry by copying one of the bullets and editing the links/dates."
+    "section": "2023",
+    "text": "2023\n\nCoastal Flood Risk in Bangladesh — AGU Fall Meeting\nSan Francisco, USA · Dec 2023\nPoster\nCoastal Flooding in Bangladesh in a Changing Climate — Carlson Lecture\nNew England Aquarium, Boston, USA · Nov 2023\nPoster\nMachine Learning–Accelerated Search for Storm Surge Extremes: Application to Bangladesh — 3rd International Workshop on Waves, Storm Surges & Coastal Hazards\nNotre Dame, USA · Oct 2023\nOral\nAcademic Writing and Literature Management: Methods and Practices — Personal Visit to China Three Gorges University\nYichang, China · Mar 2023\nOral (Invited)"
   },
   {
     "objectID": "visualizations.html",
     "href": "visualizations.html",
     "title": "Visualizations",
     "section": "",
-    "text": "Your browser does not support the video tag."
+    "text": "Tropical Cyclone\n\nHurricane in Reanalysis Dataset (ERA5)\n\n  Your browser does not support the video tag. \n\n\nWind-speed field in ERA5 at 850 hPa.\n\nDownload MP4\n\n\n\n\npyTCR: Rain Structure & Evolution\n\n\n\n\nToy example to illustrate TC rain structure and evolution.\n\n\n\npyTCR: Synthetic Tracks for Risk Workflows\n\n\n\n\nSample synthetic tracks generated for risk assessment workflows.\n\n\n\n\n\nCoastal Storm Tide\n\nBangladesh Storm Tide — Cyclone Sidr (historical run for validation)\n\n  \n\n\nEvent-scale storm tide animation over the Bangladesh coastal plain.\n\nDownload MP4\n\n\n\n\n\n\nFlood Inundation Map\n\nCase 1 — Irma (2017): Rain + Tide + Surge + 1 m sea-level rise\n\n  \n\n\nIllustrative animation of coastal water levels under a +1 m sea-level rise scenario (SFINCS).\n\nDownload MP4\n\n\n\n\nCase 2 — Irma (2017): Rain + Tide + Surge + 1.5 m sea-level rise\n\n  \n\n\nTime-evolving inundation under +1.5 m sea-level rise (SFINCS).\n\nDownload MP4\n\n\n\n\nCase 3 — April 12 (2023): Rain + Tide + Surge + 1 m sea-level rise\n\n  \n\n\nTime-evolving inundation under +1 m sea-level rise (SFINCS).\n\nDownload MP4\n\n\n\n\n\n\nHyper-Resolution Rainfall\n\nCase 1 — Irma (2017)\n\n  \n\n\nHourly MRMS rainfall animation.\n\nDownload MP4\n\n\n\n\nCase 2 — April 12 (2023)\n\n  \n\n\nHourly MRMS rainfall animation.\n\nDownload MP4"
   },
   {
     "objectID": "visualizations.html#hurricane-irma-animation",
@@ -102,14 +102,14 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Tropical-cyclone downscaling + hydrodynamic inundation\nBangladesh & SE U.S.; coupling surge, waves, rainfall, riverine flow.\n\n\nCompound & cascading hazards\nRisk mapping; ML-accelerated extreme search; adaptive decision-making.\n\n\nHydrology & rating-curve uncertainty\nBayesian / nonstationary methods; stage–discharge modeling.\n\n\nMentoring\n\nYifan Lu (NUS, incoming Ph.D., since May 2023): compound flood modeling and analysis.\n\nXiaola Wang (IWHR, Ph.D., since Sep 2023): ecohydrology modeling.\n\nGrace Jiang (MIT, B.S., Jul 2023–Dec 2024): ML for extremes (LASSE).\n\nYi Huang (CTGU, M.S., since Oct 2023): tropical-cyclone rainfall nowcasting.\n\nMadeline Loui (MIT, Ph.D., Dec 2023–Jun 2024): ML + remote sensing for inundation mapping."
+    "text": "My current work at MIT focuses on developing probabilistic, hyper-resolution flood-inundation risk maps for vulnerable regions worldwide—such as Bangladesh, Southeast Florida, Puerto Rico, and Boston—under various climate scenarios, using a multidisciplinary, ML-accelerated downscaling–hydrodynamic modeling framework. This research addresses the impacts of climate extremes—particularly tropical cyclones, seasonal extreme rainfall, and sea-level rise—and aims to empower frontline communities by enhancing disaster resilience, strengthening coastal strategies, and advancing climate adaptation.\nI summarize my past, current, and future work into four themes:\n\n1. Integrated ocean–estuary–river-network hydrodynamics for tide–surge–inflow coupling\nUnified, multi-scale domains connect shelves, estuaries, and dense river networks to capture nonlinear tide–surge–river interactions that standard coastal models miss; methods include open, reproducible meshing/workflows. See Earth’s Future (link) for the Pearl River Delta and One Earth (link) for Bangladesh. I also developed a physics-informed rating-curve framework for upstream discharge reconstruction; see Journal of Hydrology (link) and Advances in Water Science (link).\n\n\n\n\n\n\nFigure 1: Integrated ocean–estuary–river network schematic\n\n\n\n\n\n2. Physics-based storm-tide risk assessment for mega-deltas under warming scenarios\nTo quantify future storm-tide risk, I use storyline-based stress testing and TC downscaling–hydrodynamic chains to estimate design water levels (e.g., 50–1,000-yr) and long-horizon risk under sea-level rise and evolving cyclone characteristics, with explicit uncertainty for adaptation. See Earth’s Future (link) and One Earth (link).\n\n\n\n\n\n\nFigure 2: Storm-tide risk assessment\n\n\n\n\n\n3. Hyper-resolution compound/cascading flood mapping for frontline adaptation (ongoing work)\nFast hydrodynamics, TC and rainfall downscaling, and active-learning triage produce ~30 m inundation layers integrating surge, tides, river inflow, and extreme rainfall—including multi-event cascades—for decision-ready community products.\n\n\n\n\n\n\nFigure 3: Compound and cascading flood mapping\n\n\n\n\n\n4. Post-landfall flood early warning at basin–city scales (future direction)\nI am developing an operational pipeline that links week-ahead TC forecasts to rapid inundation prediction for emergency response (coupling pluvial–fluvial–coastal dynamics to generate compound/cascading inundation maps)."
   },
   {
     "objectID": "home.html",
     "href": "home.html",
     "title": "Home",
     "section": "",
-    "text": "Jiangchao Qiu 邱江潮\n\n\nqiujch24@mit.edu | Curriculum Vitae\n\n\nI am a Postdoctoral Associate at MIT/EAPS (since April 2023), advised by Dr. Sai Ravela, in collaboration with Prof. Kerry Emanuel and Prof. Miho Mazereeuw, and funded by two MIT Climate Grand Challenge Flagship Projects. My research interests broadly span physical oceanography, atmospheric science, and terrestrial hydrology, with a particular emphasis on ocean–atmosphere–land interactions.\n\n\nMy current work focuses on developing hyper-resolution flood inundation risk maps for vulnerable regions such as Bangladesh, Southeast Florida, Puerto Rico, and Boston, using a multidisciplinary, downscaling–hydrodynamic modeling framework accelerated by machine learning. This research addresses the impacts of weather and climate extremes—particularly tropical cyclones, seasonal extreme rainfall, and sea-level rise—and aims to empower frontline communities by enhancing disaster resilience, strengthening coastal strategies, and advancing climate adaptation.\n\n\n\n\n\n\n\n\nEmployment\n\nApr 2023 – Present, Postdoctoral Associate, Massachusetts Institute of Technology\n\n\n\nEducation\n\nSep 2018 – Dec 2022, Ph.D., Physical Geography, Sun Yat-sen University\nMay 2021 – Jun 2022, Ph.D. (CSC joint-educated, 1 yr), National University of Singapore\nSep 2016 – Jun 2018, M.Eng., Hydraulic Engineering, Sun Yat-sen University\nSep 2012 – Jun 2016, B.Eng., Hydraulic & Hydropower Engineering, China Three Gorges University"
+    "text": "Jiangchao Qiu 邱江潮\n\n\nqiujch24@mit.edu | Curriculum Vitae\n\n\nI am a Postdoctoral Associate at MIT/EAPS (since April 2023), advised by Dr. Sai Ravela, in collaboration with Prof. Kerry Emanuel and Prof. Miho Mazereeuw, and funded by two MIT Climate Grand Challenge Flagship Projects. My research spans physical oceanography, atmospheric science, and terrestrial hydrology, with a focus on ocean–atmosphere–land interactions, climate adaptation solutions, and the application of emerging AI methods in Earth sciences.\n\n\n\n\n\n\n\n\nEmployment\n\nApr 2023 – Present, Postdoctoral Associate, Massachusetts Institute of Technology\n\n\n\nEducation\n\nSep 2018 – Dec 2022, Ph.D., Physical Geography, Sun Yat-sen University\nMay 2021 – Jun 2022, Ph.D. (CSC joint-educated, 1 yr), National University of Singapore\nSep 2016 – Jun 2018, M.Eng., Hydraulic Engineering, Sun Yat-sen University\nSep 2012 – Jun 2016, B.Eng., Hydraulic & Hydropower Engineering, China Three Gorges University"
   },
   {
     "objectID": "news.html",
@@ -117,5 +117,40 @@
     "title": "News",
     "section": "",
     "text": "2025-04 — One Earth paper published: Bangladesh storm-tide hazards (with Ravela & Emanuel).\n2024-12 — AGU Fall Meeting poster: Assessing Cascading Flood Hazards in a Warming Climate.\n2023-12 — AGU Fall Meeting poster: coastal flood risk in Bangladesh."
+  },
+  {
+    "objectID": "visualizations.html#contributor-notes",
+    "href": "visualizations.html#contributor-notes",
+    "title": "Visualizations",
+    "section": "Contributor notes",
+    "text": "Contributor notes\n\nPreferred formats: MP4 (H.264) for videos; PNG/SVG for images.\nNaming: assets/vis/&lt;topic&gt;_&lt;location&gt;_&lt;year&gt;_&lt;short&gt;.mp4\nFor large files, add a compressed version: *_web.mp4 (page uses web version; provide a download link to full-res if needed)."
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-journal-articles",
+    "href": "publications.html#peer-reviewed-journal-articles",
+    "title": "Publications",
+    "section": "Peer-reviewed journal articles",
+    "text": "Peer-reviewed journal articles\n\nQiu, J.†, Ravela, S., & Emanuel, K. (2025). From decades to years: Rising seas and cyclones amplify Bangladesh’s storm-tide hazards. One Earth, 8(4).\nQiu, J., Liu, B., Yang, F., Wang, X., & He, X. (2022). Quantitative stress test of compound coastal–fluvial floods in China’s Pearl River Delta. Earth’s Future, 10(5), e2021EF002638.\nQiu, J., Liu, B., Yu, X., & Yang, Z. (2021). Combining a segmentation procedure and the BaRatin stationary model to estimate nonstationary rating curves and associated uncertainties. Journal of Hydrology, 597, 126168.\nQiu, J., Liu, B., Yang, Z., & Peng, W. (2020). Uncertainty analysis of estimated discharge based on stage–discharge rating curves. Advances in Water Science, 31(2), 214–223."
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\n\nJiang, G., Qiu, J., & Ravela, S. (2024). LASSE: Learning Active Sampling for Storm Tide Extremes in Non-Stationary Climate Regimes. arXiv:2501.00149.\n\n† Corresponding author."
+  },
+  {
+    "objectID": "talks.html#section-3",
+    "href": "talks.html#section-3",
+    "title": "Talks",
+    "section": "2021",
+    "text": "2021\n\nCompound Fluvial–Pluvial–Coastal Flood Risk over Southeast Asia in Current and Future Climates — AGU Fall Meeting\nChicago, USA (online) · Dec 2021\nPoster"
+  },
+  {
+    "objectID": "talks.html#section-4",
+    "href": "talks.html#section-4",
+    "title": "Talks",
+    "section": "2019",
+    "text": "2019\n\nStage–Discharge Rating-Curve Information and Uncertainty — Chinese Academy of Sciences Annual Meeting\nHubei, China · Sep 2019\nOral (Invited); Best Conference Paper Award"
   }
 ]
