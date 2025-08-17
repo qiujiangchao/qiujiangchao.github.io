@@ -110,10 +110,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Visualizations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching_notes.html"> 
-<span class="menu-text">Teaching and Notes</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
@@ -151,31 +147,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="tropical-cyclone-downscaling-hydrodynamic-inundation" class="level3">
-<h3 class="anchored" data-anchor-id="tropical-cyclone-downscaling-hydrodynamic-inundation">Tropical-cyclone downscaling + hydrodynamic inundation</h3>
-<p>Bangladesh &amp; SE U.S.; coupling surge, waves, rainfall, riverine flow.</p>
+<p>My current work at MIT focuses on developing probabilistic, hyper-resolution flood-inundation risk maps for vulnerable regions worldwide—such as Bangladesh, Southeast Florida, Puerto Rico, and Boston—under various climate scenarios, using a multidisciplinary, ML-accelerated downscaling–hydrodynamic modeling framework. This research addresses the impacts of climate extremes—particularly tropical cyclones, seasonal extreme rainfall, and sea-level rise—and aims to empower frontline communities by enhancing disaster resilience, strengthening coastal strategies, and advancing climate adaptation.</p>
+<p>I summarize my past, current, and future work into four themes:</p>
+<section id="integrated-oceanestuaryriver-network-hydrodynamics-for-tidesurgeinflow-coupling" class="level3">
+<h3 class="anchored" data-anchor-id="integrated-oceanestuaryriver-network-hydrodynamics-for-tidesurgeinflow-coupling">1. Integrated ocean–estuary–river-network hydrodynamics for tide–surge–inflow coupling</h3>
+<p>Unified, multi-scale domains connect shelves, estuaries, and dense river networks to capture nonlinear tide–surge–river interactions that standard coastal models miss; methods include open, reproducible meshing/workflows. See <em>Earth’s Future</em> (<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EF002638">link</a>) for the Pearl River Delta and <em>One Earth</em> (<a href="https://www.cell.com/one-earth/fulltext/S2590-3322(25)00099-5">link</a>) for Bangladesh. I also developed a physics-informed rating-curve framework for upstream discharge reconstruction; see <em>Journal of Hydrology</em> (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0022169421002158">link</a>) and <em>Advances in Water Science</em> (<a href="http://skxjz.nhri.cn/en/article/doi/10.14042/j.cnki.32.1309.2020.02.007">link</a>).</p>
+<div id="fig-integrated" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-cap="Integrated setup capturing tide–surge–inflow coupling across ocean, estuary, and rivers." alt="Integrated ocean–estuary–river-network model domain for the Pearl River Delta">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-integrated-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/research/PRD_Mesh.png" class="img-fluid figure-img" style="width:100.0%" data-fig-cap="Integrated setup capturing tide–surge–inflow coupling across ocean, estuary, and rivers." alt="Integrated ocean–estuary–river-network model domain for the Pearl River Delta">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-integrated-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Integrated ocean–estuary–river network schematic
+</figcaption>
+</figure>
+</div>
 </section>
-<section id="compound-cascading-hazards" class="level3">
-<h3 class="anchored" data-anchor-id="compound-cascading-hazards">Compound &amp; cascading hazards</h3>
-<p>Risk mapping; ML-accelerated extreme search; adaptive decision-making.</p>
+<section id="physics-based-storm-tide-risk-assessment-for-mega-deltas-under-warming-scenarios" class="level3">
+<h3 class="anchored" data-anchor-id="physics-based-storm-tide-risk-assessment-for-mega-deltas-under-warming-scenarios">2. Physics-based storm-tide risk assessment for mega-deltas under warming scenarios</h3>
+<p>To quantify future storm-tide risk, I use storyline-based stress testing and TC downscaling–hydrodynamic chains to estimate design water levels (e.g., 50–1,000-yr) and long-horizon risk under sea-level rise and evolving cyclone characteristics, with explicit uncertainty for adaptation. See <em>Earth’s Future</em> (<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EF002638">link</a>) and <em>One Earth</em> (<a href="https://www.cell.com/one-earth/fulltext/S2590-3322(25)00099-5">link</a>).</p>
+<div id="fig-stormtide" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-cap="Long-horizon storm-tide risk assessment under different climate pathways." alt="Example storm-tide risk maps for a delta">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-stormtide-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/research/GA.png" class="img-fluid figure-img" style="width:100.0%" data-fig-cap="Long-horizon storm-tide risk assessment under different climate pathways." alt="Example storm-tide risk maps for a delta">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stormtide-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Storm-tide risk assessment
+</figcaption>
+</figure>
+</div>
 </section>
-<section id="hydrology-rating-curve-uncertainty" class="level3">
-<h3 class="anchored" data-anchor-id="hydrology-rating-curve-uncertainty">Hydrology &amp; rating-curve uncertainty</h3>
-<p>Bayesian / nonstationary methods; stage–discharge modeling.</p>
+<section id="hyper-resolution-compoundcascading-flood-mapping-for-frontline-adaptation-ongoing-work" class="level3">
+<h3 class="anchored" data-anchor-id="hyper-resolution-compoundcascading-flood-mapping-for-frontline-adaptation-ongoing-work">3. Hyper-resolution compound/cascading flood mapping for frontline adaptation (ongoing work)</h3>
+<p>Fast hydrodynamics, TC and rainfall downscaling, and active-learning triage produce ~30 m inundation layers integrating surge, tides, river inflow, and extreme rainfall—including multi-event cascades—for decision-ready community products.</p>
+<div id="fig-compound" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-cap="An example in Broward County, Florida, USA, assuming a 1.5 m sea-level rise." alt="Compound and cascading flood mapping example">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-compound-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/research/Irma_compound_flood.png" class="img-fluid figure-img" style="width:100.0%" data-fig-cap="An example in Broward County, Florida, USA, assuming a 1.5 m sea-level rise." alt="Compound and cascading flood mapping example">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-compound-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Compound and cascading flood mapping
+</figcaption>
+</figure>
+</div>
 </section>
-<section id="mentoring" class="level3">
-<h3 class="anchored" data-anchor-id="mentoring">Mentoring</h3>
-<ul>
-<li><strong>Yifan Lu</strong> (NUS, incoming Ph.D., since May 2023): compound flood modeling and analysis.<br>
-</li>
-<li><strong>Xiaola Wang</strong> (IWHR, Ph.D., since Sep 2023): ecohydrology modeling.<br>
-</li>
-<li><strong>Grace Jiang</strong> (MIT, B.S., Jul 2023–Dec 2024): ML for extremes (LASSE).<br>
-</li>
-<li><strong>Yi Huang</strong> (CTGU, M.S., since Oct 2023): tropical-cyclone rainfall nowcasting.<br>
-</li>
-<li><strong>Madeline Loui</strong> (MIT, Ph.D., Dec 2023–Jun 2024): ML + remote sensing for inundation mapping.</li>
-</ul>
+<section id="post-landfall-flood-early-warning-at-basincity-scales-future-direction" class="level3">
+<h3 class="anchored" data-anchor-id="post-landfall-flood-early-warning-at-basincity-scales-future-direction">4. Post-landfall flood early warning at basin–city scales (future direction)</h3>
+<p>I am developing an operational pipeline that links week-ahead TC forecasts to rapid inundation prediction for emergency response (coupling pluvial–fluvial–coastal dynamics to generate compound/cascading inundation maps).</p>
 
 
 </section>
