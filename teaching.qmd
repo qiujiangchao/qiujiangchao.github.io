@@ -1,0 +1,18 @@
+---
+title: "Teaching"
+format:
+  html:
+    toc: false
+---
+
+I can teach students a broad range of professional knowledge and skills. 
+
+Beyond technical training, I believe it is even more important to guide them to ask **key questions** and to **explore the motivation behind what they learn**. I emphasize **self-discovery, passion, and creativity**, encouraging students to think critically and courageously. Gone are the days of learning knowledge without real-world value; in the AI age, personalized creativity has become the essential skill. 
+
+I hope—and firmly believe—that students trained in my group will use their talents to **serve, advance, and define the future of society.**
+
+*This teaching philosophy is inspired in part by [President Lionel M. Ni’s speech at the HKUST(GZ) 2025 university opening ceremony](https://mp.weixin.qq.com/s/4KJb48gFIvEead70Q2aWuw).*
+
+Finally, I would like to share an image that has greatly inspired me—thanks to my colleague and friend [Dr. Zhenwu Xu](https://xuzhenwu.github.io/) for sharing it with me. May it encourage us all.  
+
+![Einstein Quote](/assets/teaching/ask_question.png)

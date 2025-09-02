@@ -18,6 +18,9 @@ format:
 
 <p>I am a Postdoctoral Associate at MIT/EAPS (since April 2023), advised by <a href="https://essg.mit.edu/" target="_blank">Dr. Sai Ravela</a>, in collaboration with <a href="https://emanuel.mit.edu/" target="_blank">Prof. Kerry Emanuel</a> and <a href="https://urbanrisklab.org/" target="_blank">Prof. Miho Mazereeuw</a>, and funded by two MIT Climate Grand Challenge Flagship Projects. My research spans physical oceanography, atmospheric science, and terrestrial hydrology, with a focus on ocean–atmosphere–land interactions, climate adaptation solutions, and the application of emerging AI methods in Earth sciences.</p>
 
+<p>I seek new knowledge and practical impact to serve the nation and the world, while cultivating talents who contribute real-world value to society and industry.</p>
+
+
 </div>
 <div class="hero-right">
   <img src="assets/me.jpg" alt="Jiangchao Qiu portrait">
